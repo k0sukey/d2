@@ -1,0 +1,50 @@
+[
+  {
+    "no": 68,
+    "race": "Snake",
+    "rare": 1,
+    "grade": 15,
+    "name": "ノズチ",
+    "fusion": true
+  },
+  {
+    "no": 69,
+    "race": "Snake",
+    "rare": 2,
+    "grade": 28,
+    "name": "ナーガ",
+    "fusion": true
+  },
+  {
+    "no": 70,
+    "race": "Snake",
+    "rare": 3,
+    "grade": 45,
+    "name": "ゲンブ",
+    "fusion": true
+  },
+  {
+    "no": 71,
+    "race": "Snake",
+    "rare": 4,
+    "grade": 61,
+    "name": "ヤマタノオロチ",
+    "fusion": true
+  },
+  {
+    "no": 72,
+    "race": "Snake",
+    "rare": 4,
+    "grade": 70,
+    "name": "ユルング",
+    "fusion": true
+  },
+  {
+    "no": 73,
+    "race": "Snake",
+    "rare": 5,
+    "grade": 83,
+    "name": "アナンタ",
+    "fusion": true
+  }
+]

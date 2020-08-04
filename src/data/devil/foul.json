@@ -1,0 +1,58 @@
+[
+  {
+    "no": 130,
+    "race": "Foul",
+    "rare": 1,
+    "grade": 1,
+    "name": "スライム",
+    "fusion": true
+  },
+  {
+    "no": 131,
+    "race": "Foul",
+    "rare": 1,
+    "grade": 10,
+    "name": "ファントム",
+    "fusion": true
+  },
+  {
+    "no": 132,
+    "race": "Foul",
+    "rare": 2,
+    "grade": 20,
+    "name": "ブロブ",
+    "fusion": true
+  },
+  {
+    "no": 133,
+    "race": "Foul",
+    "rare": 2,
+    "grade": 25,
+    "name": "ブラックウーズ",
+    "fusion": true
+  },
+  {
+    "no": 134,
+    "race": "Foul",
+    "rare": 2,
+    "grade": 35,
+    "name": "シャドウ",
+    "fusion": true
+  },
+  {
+    "no": 135,
+    "race": "Foul",
+    "rare": 3,
+    "grade": 45,
+    "name": "マッドガッサー",
+    "fusion": true
+  },
+  {
+    "no": 229,
+    "race": "Foul",
+    "rare": 2,
+    "grade": 22,
+    "name": "ジャック・リパー",
+    "fusion": false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "no": 30,
+    "race": "Genma",
+    "rare": 2,
+    "grade": 27,
+    "name": "クラマテング",
+    "fusion": true
+  },
+  {
+    "no": 31,
+    "race": "Genma",
+    "rare": 3,
+    "grade": 40,
+    "name": "タム・リン",
+    "fusion": true
+  },
+  {
+    "no": 32,
+    "race": "Genma",
+    "rare": 3,
+    "grade": 49,
+    "name": "クルースニク",
+    "fusion": true
+  },
+  {
+    "no": 33,
+    "race": "Genma",
+    "rare": 4,
+    "grade": 60,
+    "name": "ハヌマーン",
+    "fusion": true
+  },
+  {
+    "no": 34,
+    "race": "Genma",
+    "rare": 4,
+    "grade": 67,
+    "name": "ツクヨミ",
+    "fusion": true
+  },
+  {
+    "no": 35,
+    "race": "Genma",
+    "rare": 5,
+    "grade": 81,
+    "name": "クー・フーリン",
+    "fusion": true
+  },
+  {
+    "no": 244,
+    "race": "Genma",
+    "rare": 5,
+    "grade": 80,
+    "name": "フロストエース",
+    "fusion": true
+  }
+]

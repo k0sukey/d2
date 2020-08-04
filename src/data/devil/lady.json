@@ -1,0 +1,74 @@
+[
+  {
+    "no": 41,
+    "race": "Lady",
+    "rare": 3,
+    "grade": 40,
+    "name": "ペレ",
+    "fusion": true
+  },
+  {
+    "no": 42,
+    "race": "Lady",
+    "rare": 3,
+    "grade": 47,
+    "name": "クシナダヒメ",
+    "fusion": true
+  },
+  {
+    "no": 43,
+    "race": "Lady",
+    "rare": 3,
+    "grade": 54,
+    "name": "イシス",
+    "fusion": true
+  },
+  {
+    "no": 44,
+    "race": "Lady",
+    "rare": 4,
+    "grade": 60,
+    "name": "キクリヒメ",
+    "fusion": true
+  },
+  {
+    "no": 45,
+    "race": "Lady",
+    "rare": 4,
+    "grade": 67,
+    "name": "スカディ",
+    "fusion": true
+  },
+  {
+    "no": 46,
+    "race": "Lady",
+    "rare": 5,
+    "grade": 83,
+    "name": "アシェラト",
+    "fusion": true
+  },
+  {
+    "no": 222,
+    "race": "Lady",
+    "rare": 5,
+    "grade": 85,
+    "name": "キュベレ",
+    "fusion": false
+  },
+  {
+    "no": 262,
+    "race": "Lady",
+    "rare": 5,
+    "grade": 86,
+    "name": "セイオウボ",
+    "fusion": false
+  },
+  {
+    "no": 263,
+    "race": "Lady",
+    "rare": 5,
+    "grade": 89,
+    "name": "カーリー",
+    "fusion": false
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "no": 103,
+    "race": "Femme",
+    "rare": 1,
+    "grade": 12,
+    "name": "リャナンシー",
+    "fusion": true
+  },
+  {
+    "no": 104,
+    "race": "Femme",
+    "rare": 2,
+    "grade": 23,
+    "name": "ヨモツシコメ",
+    "fusion": true
+  },
+  {
+    "no": 105,
+    "race": "Femme",
+    "rare": 2,
+    "grade": 34,
+    "name": "ヤクシニー",
+    "fusion": true
+  },
+  {
+    "no": 106,
+    "race": "Femme",
+    "rare": 3,
+    "grade": 42,
+    "name": "マーメイド",
+    "fusion": true
+  },
+  {
+    "no": 107,
+    "race": "Femme",
+    "rare": 3,
+    "grade": 53,
+    "name": "ダーキニー",
+    "fusion": true
+  },
+  {
+    "no": 108,
+    "race": "Femme",
+    "rare": 4,
+    "grade": 67,
+    "name": "ランダ",
+    "fusion": true
+  }
+]

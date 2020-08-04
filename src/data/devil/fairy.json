@@ -1,0 +1,82 @@
+[
+  {
+    "no": 80,
+    "race": "Fairy",
+    "rare": 1,
+    "grade": 2,
+    "name": "ピクシー",
+    "fusion": true
+  },
+  {
+    "no": 81,
+    "race": "Fairy",
+    "rare": 1,
+    "grade": 7,
+    "name": "ジャックフロスト",
+    "fusion": true
+  },
+  {
+    "no": 82,
+    "race": "Fairy",
+    "rare": 1,
+    "grade": 13,
+    "name": "ジャックランタン",
+    "fusion": true
+  },
+  {
+    "no": 83,
+    "race": "Fairy",
+    "rare": 2,
+    "grade": 24,
+    "name": "ハイピクシー",
+    "fusion": true
+  },
+  {
+    "no": 84,
+    "race": "Fairy",
+    "rare": 2,
+    "grade": 35,
+    "name": "ケルピー",
+    "fusion": true
+  },
+  {
+    "no": 85,
+    "race": "Fairy",
+    "rare": 3,
+    "grade": 42,
+    "name": "シルキー",
+    "fusion": true
+  },
+  {
+    "no": 86,
+    "race": "Fairy",
+    "rare": 3,
+    "grade": 47,
+    "name": "セタンタ",
+    "fusion": true
+  },
+  {
+    "no": 87,
+    "race": "Fairy",
+    "rare": 4,
+    "grade": 62,
+    "name": "ティターニア",
+    "fusion": true
+  },
+  {
+    "no": 88,
+    "race": "Fairy",
+    "rare": 4,
+    "grade": 67,
+    "name": "オベロン",
+    "fusion": true
+  },
+  {
+    "no": 210,
+    "race": "Fairy",
+    "rare": 2,
+    "grade": 30,
+    "name": "ナジャ",
+    "fusion": false
+  }
+]

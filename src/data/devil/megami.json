@@ -1,0 +1,82 @@
+[
+  {
+    "no": 6,
+    "race": "Megami",
+    "rare": 2,
+    "grade": 27,
+    "name": "ハトホル",
+    "fusion": true
+  },
+  {
+    "no": 7,
+    "race": "Megami",
+    "rare": 3,
+    "grade": 44,
+    "name": "アリアンロッド",
+    "fusion": true
+  },
+  {
+    "no": 8,
+    "race": "Megami",
+    "rare": 3,
+    "grade": 50,
+    "name": "スカアハ",
+    "fusion": true
+  },
+  {
+    "no": 9,
+    "race": "Megami",
+    "rare": 4,
+    "grade": 62,
+    "name": "パラスアテナ",
+    "fusion": true
+  },
+  {
+    "no": 10,
+    "race": "Megami",
+    "rare": 4,
+    "grade": 69,
+    "name": "サラスヴァティ",
+    "fusion": true
+  },
+  {
+    "no": 11,
+    "race": "Megami",
+    "rare": 5,
+    "grade": 82,
+    "name": "イシュタル",
+    "fusion": true
+  },
+  {
+    "no": 12,
+    "race": "Megami",
+    "rare": 5,
+    "grade": 85,
+    "name": "ラクシュミ",
+    "fusion": true
+  },
+  {
+    "no": 191,
+    "race": "Megami",
+    "rare": 5,
+    "grade": 89,
+    "name": "イザナミ",
+    "fusion": true
+  },
+  {
+    "no": 213,
+    "race": "Megami",
+    "rare": 4,
+    "grade": 60,
+    "name": "パールヴァティ",
+    "fusion": false
+  },
+  {
+    "no": 257,
+    "race": "Megami",
+    "rare": 5,
+    "grade": 84,
+    "name": "アナト",
+    "fusion": false
+  }
+]

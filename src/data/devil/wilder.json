@@ -1,0 +1,58 @@
+[
+  {
+    "no": 123,
+    "race": "Wilder",
+    "rare": 1,
+    "grade": 4,
+    "name": "チャグリン",
+    "fusion": true
+  },
+  {
+    "no": 124,
+    "race": "Wilder",
+    "rare": 1,
+    "grade": 9,
+    "name": "ケルピー",
+    "fusion": true
+  },
+  {
+    "no": 125,
+    "race": "Wilder",
+    "rare": 2,
+    "grade": 20,
+    "name": "ライジュウ",
+    "fusion": true
+  },
+  {
+    "no": 126,
+    "race": "Wilder",
+    "rare": 2,
+    "grade": 25,
+    "name": "ヌエ",
+    "fusion": true
+  },
+  {
+    "no": 127,
+    "race": "Wilder",
+    "rare": 3,
+    "grade": 41,
+    "name": "モスマン",
+    "fusion": true
+  },
+  {
+    "no": 128,
+    "race": "Wilder",
+    "rare": 3,
+    "grade": 46,
+    "name": "ピアレイ",
+    "fusion": true
+  },
+  {
+    "no": 129,
+    "race": "Wilder",
+    "rare": 4,
+    "grade": 61,
+    "name": "フェンリル",
+    "fusion": true
+  }
+]

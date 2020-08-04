@@ -1,0 +1,58 @@
+[
+  {
+    "no": 143,
+    "race": "Haunt",
+    "rare": 1,
+    "grade": 4,
+    "name": "ガキ",
+    "fusion": true
+  },
+  {
+    "no": 144,
+    "race": "Haunt",
+    "rare": 1,
+    "grade": 7,
+    "name": "オバリヨン",
+    "fusion": true
+  },
+  {
+    "no": 145,
+    "race": "Haunt",
+    "rare": 2,
+    "grade": 20,
+    "name": "モウリョウ",
+    "fusion": true
+  },
+  {
+    "no": 146,
+    "race": "Haunt",
+    "rare": 2,
+    "grade": 26,
+    "name": "ピシャーチャ",
+    "fusion": true
+  },
+  {
+    "no": 147,
+    "race": "Haunt",
+    "rare": 2,
+    "grade": 34,
+    "name": "レギオン",
+    "fusion": true
+  },
+  {
+    "no": 148,
+    "race": "Haunt",
+    "rare": 3,
+    "grade": 44,
+    "name": "ラフィン・スカル",
+    "fusion": true
+  },
+  {
+    "no": 149,
+    "race": "Haunt",
+    "rare": 3,
+    "grade": 55,
+    "name": "ヴェータラ",
+    "fusion": true
+  }
+]

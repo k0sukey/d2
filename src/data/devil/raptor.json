@@ -1,0 +1,42 @@
+[
+  {
+    "no": 250,
+    "race": "Raptor",
+    "rare": 3,
+    "grade": 42,
+    "name": "カルマッソ",
+    "fusion": true
+  },
+  {
+    "no": 251,
+    "race": "Raptor",
+    "rare": 3,
+    "grade": 49,
+    "name": "モー・ショボー",
+    "fusion": true
+  },
+  {
+    "no": 252,
+    "race": "Raptor",
+    "rare": 4,
+    "grade": 60,
+    "name": "アンズー",
+    "fusion": true
+  },
+  {
+    "no": 253,
+    "race": "Raptor",
+    "rare": 4,
+    "grade": 71,
+    "name": "グルル",
+    "fusion": true
+  },
+  {
+    "no": 254,
+    "race": "Raptor",
+    "rare": 5,
+    "grade": 84,
+    "name": "フレスベルグ",
+    "fusion": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "no": 24,
+    "race": "Holy",
+    "rare": 2,
+    "grade": 27,
+    "name": "ヘケト",
+    "fusion": true
+  },
+  {
+    "no": 25,
+    "race": "Holy",
+    "rare": 3,
+    "grade": 42,
+    "name": "ユニコーン",
+    "fusion": true
+  },
+  {
+    "no": 26,
+    "race": "Holy",
+    "rare": 3,
+    "grade": 44,
+    "name": "アピス",
+    "fusion": true
+  },
+  {
+    "no": 27,
+    "race": "Holy",
+    "rare": 3,
+    "grade": 48,
+    "name": "ビャッコ",
+    "fusion": true
+  },
+  {
+    "no": 28,
+    "race": "Holy",
+    "rare": 4,
+    "grade": 62,
+    "name": "スレイプニル",
+    "fusion": true
+  },
+  {
+    "no": 29,
+    "race": "Holy",
+    "rare": 4,
+    "grade": 76,
+    "name": "スフィンクス",
+    "fusion": true
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "no": 1,
+    "race": "Herald",
+    "rare": 3,
+    "grade": 43,
+    "name": "ライラ",
+    "fusion": true
+  },
+  {
+    "no": 2,
+    "race": "Herald",
+    "rare": 4,
+    "grade": 61,
+    "name": "サンダルフォン",
+    "fusion": true
+  },
+  {
+    "no": 3,
+    "race": "Herald",
+    "rare": 4,
+    "grade": 67,
+    "name": "アズラエル",
+    "fusion": true
+  },
+  {
+    "no": 4,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 90,
+    "name": "ミカエル",
+    "fusion": true
+  },
+  {
+    "no": 5,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 99,
+    "name": "メタトロン",
+    "fusion": true
+  },
+  {
+    "no": 169,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 83,
+    "name": "マンセマット",
+    "fusion": true
+  },
+  {
+    "no": 231,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 86,
+    "name": "ウリエル",
+    "fusion": false
+  },
+  {
+    "no": 232,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 87,
+    "name": "ラファエル",
+    "fusion": false
+  },
+  {
+    "no": 233,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 88,
+    "name": "ガブリエル",
+    "fusion": false
+  },
+  {
+    "no": 239,
+    "race": "Herald",
+    "rare": 5,
+    "grade": 95,
+    "name": "セラフ",
+    "fusion": false
+  }
+]

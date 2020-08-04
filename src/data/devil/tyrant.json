@@ -1,0 +1,98 @@
+[
+  {
+    "no": 136,
+    "race": "Tyrant",
+    "rare": 3,
+    "grade": 46,
+    "name": "オーカス",
+    "fusion": true
+  },
+  {
+    "no": 137,
+    "race": "Tyrant",
+    "rare": 4,
+    "grade": 60,
+    "name": "アバドン",
+    "fusion": true
+  },
+  {
+    "no": 138,
+    "race": "Tyrant",
+    "rare": 4,
+    "grade": 68,
+    "name": "ベルゼブブ",
+    "fusion": true
+  },
+  {
+    "no": 139,
+    "race": "Tyrant",
+    "rare": 4,
+    "grade": 75,
+    "name": "ロキ",
+    "fusion": true
+  },
+  {
+    "no": 140,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 83,
+    "name": "スルト",
+    "fusion": true
+  },
+  {
+    "no": 141,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 90,
+    "name": "マーラ",
+    "fusion": true
+  },
+  {
+    "no": 142,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 98,
+    "name": "ルシファー",
+    "fusion": true
+  },
+  {
+    "no": 172,
+    "race": "Tyrant",
+    "rare": 4,
+    "grade": 64,
+    "name": "キングフロスト",
+    "fusion": true
+  },
+  {
+    "no": 247,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 81,
+    "name": "ヘカーテ",
+    "fusion": false
+  },
+  {
+    "no": 255,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 92,
+    "name": "ルキフグス",
+    "fusion": false
+  },
+  {
+    "no": 258,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 80,
+    "name": "ツィツィミトル",
+    "fusion": false
+  },
+  {
+    "no": 260,
+    "race": "Tyrant",
+    "rare": 5,
+    "grade": 85,
+    "name": "ベリアル",
+    "fusion": false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "no": 54,
+    "race": "Divine",
+    "rare": 2,
+    "grade": 20,
+    "name": "エンジェル",
+    "fusion": true
+  },
+  {
+    "no": 55,
+    "race": "Divine",
+    "rare": 2,
+    "grade": 25,
+    "name": "アークエンジェル",
+    "fusion": true
+  },
+  {
+    "no": 56,
+    "race": "Divine",
+    "rare": 2,
+    "grade": 35,
+    "name": "プリンシパリティ",
+    "fusion": true
+  },
+  {
+    "no": 57,
+    "race": "Divine",
+    "rare": 3,
+    "grade": 40,
+    "name": "パワー",
+    "fusion": true
+  },
+  {
+    "no": 58,
+    "race": "Divine",
+    "rare": 3,
+    "grade": 47,
+    "name": "ヴァーチャー",
+    "fusion": true
+  },
+  {
+    "no": 59,
+    "race": "Divine",
+    "rare": 3,
+    "grade": 53,
+    "name": "ドミニオン",
+    "fusion": true
+  },
+  {
+    "no": 60,
+    "race": "Divine",
+    "rare": 4,
+    "grade": 60,
+    "name": "ソロネ",
+    "fusion": true
+  }
+]

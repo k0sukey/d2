@@ -1,0 +1,66 @@
+[
+  {
+    "no": 109,
+    "race": "Night",
+    "rare": 1,
+    "grade": 5,
+    "name": "モコイ",
+    "fusion": true
+  },
+  {
+    "no": 110,
+    "race": "Night",
+    "rare": 1,
+    "grade": 10,
+    "name": "ザントマン",
+    "fusion": true
+  },
+  {
+    "no": 111,
+    "race": "Night",
+    "rare": 2,
+    "grade": 21,
+    "name": "インキュバス",
+    "fusion": true
+  },
+  {
+    "no": 112,
+    "race": "Night",
+    "rare": 2,
+    "grade": 30,
+    "name": "フォーモリア",
+    "fusion": true
+  },
+  {
+    "no": 113,
+    "race": "Night",
+    "rare": 3,
+    "grade": 42,
+    "name": "キウン",
+    "fusion": true
+  },
+  {
+    "no": 114,
+    "race": "Night",
+    "rare": 3,
+    "grade": 47,
+    "name": "リリム",
+    "fusion": true
+  },
+  {
+    "no": 115,
+    "race": "Night",
+    "rare": 4,
+    "grade": 63,
+    "name": "サキュバス",
+    "fusion": true
+  },
+  {
+    "no": 116,
+    "race": "Night",
+    "rare": 5,
+    "grade": 80,
+    "name": "リリス",
+    "fusion": true
+  }
+]

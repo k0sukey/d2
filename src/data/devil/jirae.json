@@ -1,0 +1,58 @@
+[
+  {
+    "no": 214,
+    "race": "Jirae",
+    "rare": 1,
+    "grade": 12,
+    "name": "コロポックル",
+    "fusion": true
+  },
+  {
+    "no": 215,
+    "race": "Jirae",
+    "rare": 2,
+    "grade": 22,
+    "name": "コダマ",
+    "fusion": true
+  },
+  {
+    "no": 216,
+    "race": "Jirae",
+    "rare": 3,
+    "grade": 40,
+    "name": "カハク",
+    "fusion": true
+  },
+  {
+    "no": 217,
+    "race": "Jirae",
+    "rare": 3,
+    "grade": 46,
+    "name": "カワンチャ",
+    "fusion": true
+  },
+  {
+    "no": 218,
+    "race": "Jirae",
+    "rare": 4,
+    "grade": 60,
+    "name": "ティターン",
+    "fusion": true
+  },
+  {
+    "no": 219,
+    "race": "Jirae",
+    "rare": 4,
+    "grade": 66,
+    "name": "トラルテクトリ",
+    "fusion": true
+  },
+  {
+    "no": 220,
+    "race": "Jirae",
+    "rare": 5,
+    "grade": 80,
+    "name": "ゴクマゴク",
+    "fusion": true
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "no": 47,
+    "race": "Kishin",
+    "rare": 2,
+    "grade": 27,
+    "name": "タケミナカタ",
+    "fusion": true
+  },
+  {
+    "no": 48,
+    "race": "Kishin",
+    "rare": 3,
+    "grade": 41,
+    "name": "ゾウチョウテン",
+    "fusion": true
+  },
+  {
+    "no": 49,
+    "race": "Kishin",
+    "rare": 3,
+    "grade": 50,
+    "name": "コウモクテン",
+    "fusion": true
+  },
+  {
+    "no": 50,
+    "race": "Kishin",
+    "rare": 4,
+    "grade": 62,
+    "name": "ジコクテン",
+    "fusion": true
+  },
+  {
+    "no": 51,
+    "race": "Kishin",
+    "rare": 4,
+    "grade": 70,
+    "name": "ビシャモンテン",
+    "fusion": true
+  },
+  {
+    "no": 52,
+    "race": "Kishin",
+    "rare": 4,
+    "grade": 75,
+    "name": "ショウキ",
+    "fusion": true
+  },
+  {
+    "no": 53,
+    "race": "Kishin",
+    "rare": 5,
+    "grade": 83,
+    "name": "トール",
+    "fusion": true
+  }
+]

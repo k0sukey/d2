@@ -1,0 +1,42 @@
+.parent {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.children {
+  position: relative;
+  margin-left: 20px;
+}
+
+.children::before {
+  content: '';
+  position: absolute;
+  top: -0.5em;
+  left: -16px;
+  width: 10px;
+  height: calc(100% + 0.75em);
+  border-left: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.children:last-child::before {
+  height: calc(1em + 0.25em);
+}
+
+.children::after {
+  content: '';
+  position: absolute;
+  top: 0.75em;
+  left: -16px;
+  width: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+@media (prefers-color-scheme: dark) {
+  .children::before {
+    border-left: 1px solid #ffffff;
+  }
+
+  .children::after {
+    border-bottom: 1px solid #ffffff;
+  }
+}

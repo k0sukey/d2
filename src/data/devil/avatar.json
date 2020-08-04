@@ -1,0 +1,42 @@
+[
+  {
+    "no": 19,
+    "race": "Avatar",
+    "rare": 2,
+    "grade": 33,
+    "name": "シーサー",
+    "fusion": true
+  },
+  {
+    "no": 20,
+    "race": "Avatar",
+    "rare": 3,
+    "grade": 41,
+    "name": "マカミ",
+    "fusion": true
+  },
+  {
+    "no": 21,
+    "race": "Avatar",
+    "rare": 3,
+    "grade": 49,
+    "name": "キマイラ",
+    "fusion": true
+  },
+  {
+    "no": 22,
+    "race": "Avatar",
+    "rare": 4,
+    "grade": 70,
+    "name": "アヌビス",
+    "fusion": true
+  },
+  {
+    "no": 23,
+    "race": "Avatar",
+    "rare": 5,
+    "grade": 84,
+    "name": "バロン",
+    "fusion": true
+  }
+]

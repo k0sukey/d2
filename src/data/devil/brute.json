@@ -1,0 +1,58 @@
+[
+  {
+    "no": 96,
+    "race": "Brute",
+    "rare": 1,
+    "grade": 3,
+    "name": "アズミ",
+    "fusion": true
+  },
+  {
+    "no": 97,
+    "race": "Brute",
+    "rare": 1,
+    "grade": 15,
+    "name": "モムノフ",
+    "fusion": true
+  },
+  {
+    "no": 98,
+    "race": "Brute",
+    "rare": 2,
+    "grade": 27,
+    "name": "オニ",
+    "fusion": true
+  },
+  {
+    "no": 99,
+    "race": "Brute",
+    "rare": 3,
+    "grade": 41,
+    "name": "ヨモツイクサ",
+    "fusion": true
+  },
+  {
+    "no": 100,
+    "race": "Brute",
+    "rare": 3,
+    "grade": 49,
+    "name": "シキオウジ",
+    "fusion": true
+  },
+  {
+    "no": 101,
+    "race": "Brute",
+    "rare": 3,
+    "grade": 54,
+    "name": "ベルセルク",
+    "fusion": true
+  },
+  {
+    "no": 102,
+    "race": "Brute",
+    "rare": 4,
+    "grade": 68,
+    "name": "オンギョウキ",
+    "fusion": true
+  }
+]

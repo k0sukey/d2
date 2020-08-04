@@ -1,0 +1,42 @@
+[
+  {
+    "no": 234,
+    "race": "Drake",
+    "rare": 3,
+    "grade": 58,
+    "name": "ティアマト",
+    "fusion": true
+  },
+  {
+    "no": 235,
+    "race": "Drake",
+    "rare": 4,
+    "grade": 72,
+    "name": "ニーズホッグ",
+    "fusion": true
+  },
+  {
+    "no": 236,
+    "race": "Drake",
+    "rare": 4,
+    "grade": 77,
+    "name": "ヤム",
+    "fusion": true
+  },
+  {
+    "no": 237,
+    "race": "Drake",
+    "rare": 5,
+    "grade": 81,
+    "name": "ファフニール",
+    "fusion": true
+  },
+  {
+    "no": 238,
+    "race": "Drake",
+    "rare": 5,
+    "grade": 86,
+    "name": "ヴァスキ",
+    "fusion": true
+  }
+]

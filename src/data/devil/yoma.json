@@ -1,0 +1,58 @@
+[
+  {
+    "no": 61,
+    "race": "Yoma",
+    "rare": 1,
+    "grade": 5,
+    "name": "アガシオン",
+    "fusion": true
+  },
+  {
+    "no": 62,
+    "race": "Yoma",
+    "rare": 1,
+    "grade": 7,
+    "name": "コッパテング",
+    "fusion": true
+  },
+  {
+    "no": 63,
+    "race": "Yoma",
+    "rare": 1,
+    "grade": 11,
+    "name": "アプサラス",
+    "fusion": true
+  },
+  {
+    "no": 64,
+    "race": "Yoma",
+    "rare": 2,
+    "grade": 34,
+    "name": "ディース",
+    "fusion": true
+  },
+  {
+    "no": 65,
+    "race": "Yoma",
+    "rare": 3,
+    "grade": 40,
+    "name": "ヴァルキリー",
+    "fusion": true
+  },
+  {
+    "no": 66,
+    "race": "Yoma",
+    "rare": 3,
+    "grade": 52,
+    "name": "イフリート",
+    "fusion": true
+  },
+  {
+    "no": 67,
+    "race": "Yoma",
+    "rare": 4,
+    "grade": 66,
+    "name": "ガネーシャ",
+    "fusion": true
+  }
+]

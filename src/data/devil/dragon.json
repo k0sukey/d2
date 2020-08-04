@@ -1,0 +1,58 @@
+[
+  {
+    "no": 173,
+    "race": "Dragon",
+    "rare": 2,
+    "grade": 35,
+    "name": "パトリムパス",
+    "fusion": true
+  },
+  {
+    "no": 174,
+    "race": "Dragon",
+    "rare": 3,
+    "grade": 41,
+    "name": "マカラ",
+    "fusion": true
+  },
+  {
+    "no": 175,
+    "race": "Dragon",
+    "rare": 3,
+    "grade": 47,
+    "name": "イルルヤンカシュ",
+    "fusion": true
+  },
+  {
+    "no": 176,
+    "race": "Dragon",
+    "rare": 4,
+    "grade": 63,
+    "name": "セイリュウ",
+    "fusion": true
+  },
+  {
+    "no": 177,
+    "race": "Dragon",
+    "rare": 4,
+    "grade": 69,
+    "name": "グクマッツ",
+    "fusion": true
+  },
+  {
+    "no": 178,
+    "race": "Dragon",
+    "rare": 5,
+    "grade": 80,
+    "name": "ケツアルカトル",
+    "fusion": true
+  },
+  {
+    "no": 179,
+    "race": "Dragon",
+    "rare": 5,
+    "grade": 88,
+    "name": "コウリュウ",
+    "fusion": true
+  }
+]

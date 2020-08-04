@@ -1,0 +1,58 @@
+[
+  {
+    "no": 183,
+    "race": "Jaki",
+    "rare": 1,
+    "grade": 11,
+    "name": "グレムリン",
+    "fusion": true
+  },
+  {
+    "no": 184,
+    "race": "Jaki",
+    "rare": 2,
+    "grade": 26,
+    "name": "イッポンダタラ",
+    "fusion": true
+  },
+  {
+    "no": 185,
+    "race": "Jaki",
+    "rare": 3,
+    "grade": 51,
+    "name": "グレンデル",
+    "fusion": true
+  },
+  {
+    "no": 186,
+    "race": "Jaki",
+    "rare": 4,
+    "grade": 61,
+    "name": "ラクシャーサ",
+    "fusion": true
+  },
+  {
+    "no": 187,
+    "race": "Jaki",
+    "rare": 4,
+    "grade": 67,
+    "name": "クドラク",
+    "fusion": true
+  },
+  {
+    "no": 188,
+    "race": "Jaki",
+    "rare": 4,
+    "grade": 74,
+    "name": "ヘカトンケイル",
+    "fusion": true
+  },
+  {
+    "no": 189,
+    "race": "Jaki",
+    "rare": 5,
+    "grade": 81,
+    "name": "じゃあくフロスト",
+    "fusion": true
+  }
+]

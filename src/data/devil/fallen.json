@@ -1,0 +1,66 @@
+[
+  {
+    "no": 89,
+    "race": "Fallen",
+    "rare": 1,
+    "grade": 4,
+    "name": "メルコム",
+    "fusion": true
+  },
+  {
+    "no": 90,
+    "race": "Fallen",
+    "rare": 1,
+    "grade": 10,
+    "name": "エリゴール",
+    "fusion": true
+  },
+  {
+    "no": 91,
+    "race": "Fallen",
+    "rare": 2,
+    "grade": 23,
+    "name": "デカラビア",
+    "fusion": true
+  },
+  {
+    "no": 92,
+    "race": "Fallen",
+    "rare": 3,
+    "grade": 41,
+    "name": "フォルネウス",
+    "fusion": true
+  },
+  {
+    "no": 93,
+    "race": "Fallen",
+    "rare": 3,
+    "grade": 54,
+    "name": "オセ",
+    "fusion": true
+  },
+  {
+    "no": 94,
+    "race": "Fallen",
+    "rare": 4,
+    "grade": 70,
+    "name": "ダンタリアン",
+    "fusion": true
+  },
+  {
+    "no": 95,
+    "race": "Fallen",
+    "rare": 5,
+    "grade": 84,
+    "name": "サマエル",
+    "fusion": true
+  },
+  {
+    "no": 259,
+    "race": "Fallen",
+    "rare": 5,
+    "grade": 81,
+    "name": "ネビロス",
+    "fusion": true
+  }
+]

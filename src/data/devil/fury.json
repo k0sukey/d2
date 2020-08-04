@@ -1,0 +1,58 @@
+[
+  {
+    "no": 36,
+    "race": "Fury",
+    "rare": 3,
+    "grade": 44,
+    "name": "アレス",
+    "fusion": true
+  },
+  {
+    "no": 37,
+    "race": "Fury",
+    "rare": 4,
+    "grade": 61,
+    "name": "セイテンタイセイ",
+    "fusion": true
+  },
+  {
+    "no": 38,
+    "race": "Fury",
+    "rare": 4,
+    "grade": 69,
+    "name": "ホクトセイクン",
+    "fusion": true
+  },
+  {
+    "no": 39,
+    "race": "Fury",
+    "rare": 5,
+    "grade": 82,
+    "name": "スサノオ",
+    "fusion": true
+  },
+  {
+    "no": 40,
+    "race": "Fury",
+    "rare": 5,
+    "grade": 93,
+    "name": "シヴァ",
+    "fusion": true
+  },
+  {
+    "no": 180,
+    "race": "Fury",
+    "rare": 5,
+    "grade": 85,
+    "name": "ザオウゴンゲン",
+    "fusion": true
+  },
+  {
+    "no": 224,
+    "race": "Fury",
+    "rare": 5,
+    "grade": 80,
+    "name": "カルティケーヤ",
+    "fusion": false
+  }
+]

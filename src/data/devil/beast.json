@@ -1,0 +1,58 @@
+[
+  {
+    "no": 74,
+    "race": "Beast",
+    "rare": 1,
+    "grade": 3,
+    "name": "カーシー",
+    "fusion": true
+  },
+  {
+    "no": 75,
+    "race": "Beast",
+    "rare": 1,
+    "grade": 9,
+    "name": "イヌガミ",
+    "fusion": true
+  },
+  {
+    "no": 76,
+    "race": "Beast",
+    "rare": 1,
+    "grade": 14,
+    "name": "ネコマタ",
+    "fusion": true
+  },
+  {
+    "no": 77,
+    "race": "Beast",
+    "rare": 2,
+    "grade": 35,
+    "name": "オルトロス",
+    "fusion": true
+  },
+  {
+    "no": 78,
+    "race": "Beast",
+    "rare": 3,
+    "grade": 44,
+    "name": "アーマーン",
+    "fusion": true
+  },
+  {
+    "no": 79,
+    "race": "Beast",
+    "rare": 4,
+    "grade": 61,
+    "name": "ケルベロス",
+    "fusion": true
+  },
+  {
+    "no": 221,
+    "race": "Beast",
+    "rare": 2,
+    "grade": 20,
+    "name": "カブソ",
+    "fusion": false
+  }
+]
