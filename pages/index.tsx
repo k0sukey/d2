@@ -43,7 +43,7 @@ const IndexPage = () => {
         <CssBaseline />
         <Container maxWidth="sm" style={{ marginTop: '20px' }}>
           <Autocomplete
-            options={[...devils.orderByNoAsc()]}
+            options={[...devils.withoutSpecial().orderByNoAsc()]}
             getOptionLabel={(option) => option.name}
             renderOption={(option) => <>{option.name}</>}
             renderInput={(params) => (
