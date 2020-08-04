@@ -37,7 +37,7 @@ const Information = ({ devil, dendrogram }: Props) => (
       </dd>
       <dd>
         <Typography variant="caption">
-          施設アップグレードの最大割引が適用されています
+          施設アップグレードの最大割引が適用
         </Typography>
       </dd>
       <dt>
