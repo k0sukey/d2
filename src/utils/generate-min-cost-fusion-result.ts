@@ -4,7 +4,7 @@ import path from 'path';
 import { format } from 'prettier';
 
 import { getAll } from '../models/devil/get-all';
-import { getCost } from '../models/fusion/get-cost';
+import { getMagnetite } from '../models/fusion/get-magnetite';
 import { getSacrifices } from '../models/fusion/get-sacrifices';
 
 const root = path.join('src', 'data', 'fusion');
@@ -23,7 +23,7 @@ const list = [...getAll().withoutSpecial()].map((devil) => {
       (a2.grade + a2.rare + b2.grade + b2.rare),
   );
   const [a, b] = devil.rare > 2 ? sacrifices[0] : [null, null];
-  const cost = a !== null && b !== null ? getCost(devil, a, b) : null;
+  const cost = a !== null && b !== null ? getMagnetite(devil, a, b) : null;
   fs.writeFileSync(
     path.join(dir, `${devil.no}.json`),
     format(JSON.stringify({ ...devil, a, b, cost }), {

@@ -9,6 +9,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import { Devil } from '../src/models/devil/devil';
 import { getAll } from '../src/models/devil/get-all';
+import { raceMap } from '../src/models/race/race-map';
 import Result from '../components/result';
 
 const IndexPage = () => {
@@ -43,7 +44,10 @@ const IndexPage = () => {
         <CssBaseline />
         <Container maxWidth="sm" style={{ marginTop: '20px' }}>
           <Autocomplete
-            options={[...devils.withoutSpecial().orderByNoAsc()]}
+            blurOnSelect
+            disableListWrap
+            options={[...devils.withoutSpecial().orderByRaceAndGradeAsc()]}
+            groupBy={(option) => raceMap.get(option.race) ?? option.race}
             getOptionLabel={(option) => option.name}
             renderOption={(option) => <>{option.name}</>}
             renderInput={(params) => (

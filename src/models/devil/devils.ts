@@ -1,7 +1,10 @@
 import { Devil } from './devil';
 import { RaceKey } from '../race/race-key';
+import { raceMap } from '../race/race-map';
 
 export class Devils {
+  raceOrder: RaceKey[] = [...raceMap].map((v) => v[0]);
+
   constructor(private readonly list: Devil[]) {}
 
   count(): number {
@@ -17,8 +20,16 @@ export class Devils {
     return new Devils(list);
   }
 
-  orderByNoAsc(): Devils {
-    const list = this.list.sort((a, b) => a.no - b.no);
+  orderByRaceAndGradeAsc(): Devils {
+    const list = this.list.sort((a, b) => {
+      if (a.race !== b.race) {
+        return this.raceOrder.indexOf(a.race) - this.raceOrder.indexOf(b.race);
+      }
+      if (a.grade !== b.grade) {
+        return a.grade - b.grade;
+      }
+      return 0;
+    });
     return new Devils(list);
   }
 
@@ -28,7 +39,7 @@ export class Devils {
   }
 
   withoutSpecial(): Devils {
-    const list = this.list.filter(v => v.fusion);
+    const list = this.list.filter((v) => v.fusion);
     return new Devils(list);
   }
 

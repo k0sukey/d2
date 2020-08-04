@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { getCost } from '../../../src/models/fusion/get-cost';
+import { getMagnetite } from '../../../src/models/fusion/get-magnetite';
 import { getSacrifices } from '../../../src/models/fusion/get-sacrifices';
 import { Dendrogram } from '../../../src/models/devil/dendrogram';
 import { Devil } from '../../../src/models/devil/devil';
@@ -67,7 +67,7 @@ function recursiveSacrifices(result: Devil, ancestors: number[]): Dendrogram {
       b !== undefined && b.rare > 2
         ? recursiveSacrifices(b, ancestors.concat(b.no))
         : terminatedSacrifice(b),
-    cost: a === undefined || b === undefined ? null : getCost(result, a, b),
+    cost: a === undefined || b === undefined ? null : getMagnetite(result, a, b),
   };
 }
 

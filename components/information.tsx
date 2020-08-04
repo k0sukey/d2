@@ -35,11 +35,6 @@ const Information = ({ devil, dendrogram }: Props) => (
           {getSumMagnetite(dendrogram).toLocaleString()}
         </Typography>
       </dd>
-      <dd>
-        <Typography variant="caption">
-          施設アップグレードの最大割引が適用
-        </Typography>
-      </dd>
       <dt>
         <Typography variant="body2">召喚に必要な総カルマ</Typography>
       </dt>
