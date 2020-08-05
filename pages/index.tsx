@@ -46,7 +46,7 @@ const IndexPage = () => {
           <Autocomplete
             blurOnSelect
             disableListWrap
-            options={[...devils.withoutSpecial().orderByRaceAndGradeAsc()]}
+            options={[...devils.getSacrifices().orderByRaceAndGradeAsc()]}
             groupBy={(option) => raceMap.get(option.race) ?? option.race}
             getOptionLabel={(option) => option.name}
             renderOption={(option) => <>{option.name}</>}

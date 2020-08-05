@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 27,
     "name": "タケミナカタ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 48,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 41,
     "name": "ゾウチョウテン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 49,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 50,
     "name": "コウモクテン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 50,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 62,
     "name": "ジコクテン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 51,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 70,
     "name": "ビシャモンテン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 52,
@@ -45,7 +45,7 @@
     "rare": 4,
     "grade": 75,
     "name": "ショウキ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 53,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 83,
     "name": "トール",
-    "fusion": true
+    "sacrifice": true
   }
 ]

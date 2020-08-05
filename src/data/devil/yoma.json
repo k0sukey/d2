@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 5,
     "name": "アガシオン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 62,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 7,
     "name": "コッパテング",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 63,
@@ -21,7 +21,7 @@
     "rare": 1,
     "grade": 11,
     "name": "アプサラス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 64,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 34,
     "name": "ディース",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 65,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 40,
     "name": "ヴァルキリー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 66,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 52,
     "name": "イフリート",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 67,
@@ -53,6 +53,6 @@
     "rare": 4,
     "grade": 66,
     "name": "ガネーシャ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

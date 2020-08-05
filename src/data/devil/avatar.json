@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 33,
     "name": "シーサー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 20,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 41,
     "name": "マカミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 21,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 49,
     "name": "キマイラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 22,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 70,
     "name": "アヌビス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 23,
@@ -37,6 +37,6 @@
     "rare": 5,
     "grade": 84,
     "name": "バロン",
-    "fusion": true
+    "sacrifice": true
   }
 ]

@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 26,
     "name": "アブラクサス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 118,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 41,
     "name": "バフォメット",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 119,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 50,
     "name": "アラハバキ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 120,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 62,
     "name": "パズス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 121,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 67,
     "name": "ギリメカラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 122,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 84,
     "name": "セト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 201,
@@ -53,6 +53,6 @@
     "rare": 4,
     "grade": 65,
     "name": "ミシャグジさま",
-    "fusion": false
+    "sacrifice": false
   }
 ]

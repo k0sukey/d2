@@ -5,7 +5,7 @@
     "rare": 3,
     "grade": 46,
     "name": "オーカス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 137,
@@ -13,7 +13,7 @@
     "rare": 4,
     "grade": 60,
     "name": "アバドン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 138,
@@ -21,7 +21,7 @@
     "rare": 4,
     "grade": 68,
     "name": "ベルゼブブ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 139,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 75,
     "name": "ロキ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 140,
@@ -37,7 +37,7 @@
     "rare": 5,
     "grade": 83,
     "name": "スルト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 141,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 90,
     "name": "マーラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 142,
@@ -53,7 +53,7 @@
     "rare": 5,
     "grade": 98,
     "name": "ルシファー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 172,
@@ -61,7 +61,7 @@
     "rare": 4,
     "grade": 64,
     "name": "キングフロスト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 247,
@@ -69,7 +69,7 @@
     "rare": 5,
     "grade": 81,
     "name": "ヘカーテ",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 255,
@@ -77,7 +77,7 @@
     "rare": 5,
     "grade": 92,
     "name": "ルキフグス",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 258,
@@ -85,7 +85,7 @@
     "rare": 5,
     "grade": 80,
     "name": "ツィツィミトル",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 260,
@@ -93,6 +93,6 @@
     "rare": 5,
     "grade": 85,
     "name": "ベリアル",
-    "fusion": false
+    "sacrifice": false
   }
 ]

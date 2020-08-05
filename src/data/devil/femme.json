@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 12,
     "name": "リャナンシー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 104,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 23,
     "name": "ヨモツシコメ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 105,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 34,
     "name": "ヤクシニー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 106,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 42,
     "name": "マーメイド",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 107,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 53,
     "name": "ダーキニー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 108,
@@ -45,6 +45,6 @@
     "rare": 4,
     "grade": 67,
     "name": "ランダ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 27,
     "name": "ハンサ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 162,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 28,
     "name": "スパルナ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 163,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 44,
     "name": "ジャターユ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 164,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 53,
     "name": "スザク",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 165,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 66,
     "name": "ヤタガラス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 166,
@@ -45,6 +45,6 @@
     "rare": 5,
     "grade": 80,
     "name": "ガルーダ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

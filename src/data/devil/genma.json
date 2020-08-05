@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 27,
     "name": "クラマテング",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 31,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 40,
     "name": "タム・リン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 32,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 49,
     "name": "クルースニク",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 33,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 60,
     "name": "ハヌマーン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 34,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 67,
     "name": "ツクヨミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 35,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 81,
     "name": "クー・フーリン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 244,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 80,
     "name": "フロストエース",
-    "fusion": true
+    "sacrifice": false
   }
 ]

@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 11,
     "name": "グレムリン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 184,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 26,
     "name": "イッポンダタラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 185,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 51,
     "name": "グレンデル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 186,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 61,
     "name": "ラクシャーサ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 187,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 67,
     "name": "クドラク",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 188,
@@ -45,7 +45,7 @@
     "rare": 4,
     "grade": 74,
     "name": "ヘカトンケイル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 189,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 81,
     "name": "じゃあくフロスト",
-    "fusion": true
+    "sacrifice": true
   }
 ]

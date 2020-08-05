@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 4,
     "name": "チャグリン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 124,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 9,
     "name": "ケルピー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 125,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 20,
     "name": "ライジュウ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 126,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 25,
     "name": "ヌエ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 127,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 41,
     "name": "モスマン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 128,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 46,
     "name": "ピアレイ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 129,
@@ -53,6 +53,6 @@
     "rare": 4,
     "grade": 61,
     "name": "フェンリル",
-    "fusion": true
+    "sacrifice": true
   }
 ]

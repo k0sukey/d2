@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 3,
     "name": "カーシー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 75,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 9,
     "name": "イヌガミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 76,
@@ -21,7 +21,7 @@
     "rare": 1,
     "grade": 14,
     "name": "ネコマタ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 77,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 35,
     "name": "オルトロス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 78,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 44,
     "name": "アーマーン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 79,
@@ -45,7 +45,7 @@
     "rare": 4,
     "grade": 61,
     "name": "ケルベロス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 221,
@@ -53,6 +53,6 @@
     "rare": 2,
     "grade": 20,
     "name": "カブソ",
-    "fusion": false
+    "sacrifice": false
   }
 ]

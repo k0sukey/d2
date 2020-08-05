@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 3,
     "name": "アズミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 97,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 15,
     "name": "モムノフ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 98,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 27,
     "name": "オニ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 99,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 41,
     "name": "ヨモツイクサ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 100,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 49,
     "name": "シキオウジ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 101,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 54,
     "name": "ベルセルク",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 102,
@@ -53,6 +53,6 @@
     "rare": 4,
     "grade": 68,
     "name": "オンギョウキ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

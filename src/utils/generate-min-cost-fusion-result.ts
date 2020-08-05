@@ -8,7 +8,7 @@ import { getMagnetite } from '../models/fusion/get-magnetite';
 import { getSacrifices } from '../models/fusion/get-sacrifices';
 
 const root = path.join('src', 'data', 'fusion');
-const list = [...getAll().withoutSpecial()].map((devil) => {
+const list = [...getAll().getSacrifices()].map((devil) => {
   const race = devil.race.toLowerCase();
   const dir = path.join(root, race);
   mkdirp.sync(dir);

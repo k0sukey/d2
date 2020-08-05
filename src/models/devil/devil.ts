@@ -6,5 +6,5 @@ export interface Devil {
   rare: number;
   grade: number;
   name: string;
-  fusion: boolean;
+  sacrifice: boolean;
 }

@@ -5,7 +5,7 @@
     "rare": 3,
     "grade": 42,
     "name": "カルマッソ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 251,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 49,
     "name": "モー・ショボー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 252,
@@ -21,7 +21,7 @@
     "rare": 4,
     "grade": 60,
     "name": "アンズー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 253,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 71,
     "name": "グルル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 254,
@@ -37,6 +37,6 @@
     "rare": 5,
     "grade": 84,
     "name": "フレスベルグ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

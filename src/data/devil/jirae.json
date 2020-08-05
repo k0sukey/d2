@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 12,
     "name": "コロポックル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 215,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 22,
     "name": "コダマ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 216,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 40,
     "name": "カハク",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 217,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 46,
     "name": "カワンチャ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 218,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 60,
     "name": "ティターン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 219,
@@ -45,7 +45,7 @@
     "rare": 4,
     "grade": 66,
     "name": "トラルテクトリ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 220,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 80,
     "name": "ゴクマゴク",
-    "fusion": true
+    "sacrifice": true
   }
 ]

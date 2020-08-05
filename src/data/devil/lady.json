@@ -5,7 +5,7 @@
     "rare": 3,
     "grade": 40,
     "name": "ペレ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 42,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 47,
     "name": "クシナダヒメ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 43,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 54,
     "name": "イシス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 44,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 60,
     "name": "キクリヒメ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 45,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 67,
     "name": "スカディ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 46,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 83,
     "name": "アシェラト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 222,
@@ -53,7 +53,7 @@
     "rare": 5,
     "grade": 85,
     "name": "キュベレ",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 262,
@@ -61,7 +61,7 @@
     "rare": 5,
     "grade": 86,
     "name": "セイオウボ",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 263,
@@ -69,6 +69,6 @@
     "rare": 5,
     "grade": 89,
     "name": "カーリー",
-    "fusion": false
+    "sacrifice": false
   }
 ]

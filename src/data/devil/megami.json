@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 27,
     "name": "ハトホル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 7,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 44,
     "name": "アリアンロッド",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 8,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 50,
     "name": "スカアハ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 9,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 62,
     "name": "パラスアテナ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 10,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 69,
     "name": "サラスヴァティ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 11,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 82,
     "name": "イシュタル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 12,
@@ -53,7 +53,7 @@
     "rare": 5,
     "grade": 85,
     "name": "ラクシュミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 191,
@@ -61,7 +61,7 @@
     "rare": 5,
     "grade": 89,
     "name": "イザナミ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 213,
@@ -69,7 +69,7 @@
     "rare": 4,
     "grade": 60,
     "name": "パールヴァティ",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 257,
@@ -77,6 +77,6 @@
     "rare": 5,
     "grade": 84,
     "name": "アナト",
-    "fusion": false
+    "sacrifice": false
   }
 ]

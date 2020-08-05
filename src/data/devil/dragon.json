@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 35,
     "name": "パトリムパス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 174,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 41,
     "name": "マカラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 175,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 47,
     "name": "イルルヤンカシュ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 176,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 63,
     "name": "セイリュウ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 177,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 69,
     "name": "グクマッツ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 178,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 80,
     "name": "ケツアルカトル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 179,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 88,
     "name": "コウリュウ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 4,
     "name": "メルコム",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 90,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 10,
     "name": "エリゴール",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 91,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 23,
     "name": "デカラビア",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 92,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 41,
     "name": "フォルネウス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 93,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 54,
     "name": "オセ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 94,
@@ -45,7 +45,7 @@
     "rare": 4,
     "grade": 70,
     "name": "ダンタリアン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 95,
@@ -53,7 +53,7 @@
     "rare": 5,
     "grade": 84,
     "name": "サマエル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 259,
@@ -61,6 +61,6 @@
     "rare": 5,
     "grade": 81,
     "name": "ネビロス",
-    "fusion": false
+    "sacrifice": false
   }
 ]

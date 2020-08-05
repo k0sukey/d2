@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 27,
     "name": "ヘケト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 25,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 42,
     "name": "ユニコーン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 26,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 44,
     "name": "アピス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 27,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 48,
     "name": "ビャッコ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 28,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 62,
     "name": "スレイプニル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 29,
@@ -45,6 +45,6 @@
     "rare": 4,
     "grade": 76,
     "name": "スフィンクス",
-    "fusion": true
+    "sacrifice": true
   }
 ]

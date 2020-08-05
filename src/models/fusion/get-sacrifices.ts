@@ -21,8 +21,8 @@ export function getSacrifices(result: Devil): [Devil, Devil][] {
 
   let list: [Devil, Devil][] = [];
   candidates.forEach(([a, b]) => {
-    const aDevils = [...devils.searchByRace(a).withoutSpecial()];
-    const bDevils = [...devils.searchByRace(b).withoutSpecial()];
+    const aDevils = [...devils.searchByRace(a).getSacrifices()];
+    const bDevils = [...devils.searchByRace(b).getSacrifices()];
     const results = aDevils.reduce((acc, curr) => {
       const list = bDevils.filter((v) => {
         const grade = Math.floor((curr.grade + v.grade) / 2 + 1);

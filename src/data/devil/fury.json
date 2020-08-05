@@ -5,7 +5,7 @@
     "rare": 3,
     "grade": 44,
     "name": "アレス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 37,
@@ -13,7 +13,7 @@
     "rare": 4,
     "grade": 61,
     "name": "セイテンタイセイ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 38,
@@ -21,7 +21,7 @@
     "rare": 4,
     "grade": 69,
     "name": "ホクトセイクン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 39,
@@ -29,7 +29,7 @@
     "rare": 5,
     "grade": 82,
     "name": "スサノオ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 40,
@@ -37,7 +37,7 @@
     "rare": 5,
     "grade": 93,
     "name": "シヴァ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 180,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 85,
     "name": "ザオウゴンゲン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 224,
@@ -53,6 +53,6 @@
     "rare": 5,
     "grade": 80,
     "name": "カルティケーヤ",
-    "fusion": false
+    "sacrifice": false
   }
 ]

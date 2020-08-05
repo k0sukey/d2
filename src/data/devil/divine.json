@@ -5,7 +5,7 @@
     "rare": 2,
     "grade": 20,
     "name": "エンジェル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 55,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 25,
     "name": "アークエンジェル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 56,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 35,
     "name": "プリンシパリティ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 57,
@@ -29,7 +29,7 @@
     "rare": 3,
     "grade": 40,
     "name": "パワー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 58,
@@ -37,7 +37,7 @@
     "rare": 3,
     "grade": 47,
     "name": "ヴァーチャー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 59,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 53,
     "name": "ドミニオン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 60,
@@ -53,6 +53,6 @@
     "rare": 4,
     "grade": 60,
     "name": "ソロネ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

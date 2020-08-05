@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 15,
     "name": "ノズチ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 69,
@@ -13,7 +13,7 @@
     "rare": 2,
     "grade": 28,
     "name": "ナーガ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 70,
@@ -21,7 +21,7 @@
     "rare": 3,
     "grade": 45,
     "name": "ゲンブ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 71,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 61,
     "name": "ヤマタノオロチ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 72,
@@ -37,7 +37,7 @@
     "rare": 4,
     "grade": 70,
     "name": "ユルング",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 73,
@@ -45,6 +45,6 @@
     "rare": 5,
     "grade": 83,
     "name": "アナンタ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

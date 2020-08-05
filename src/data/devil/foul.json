@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 1,
     "name": "スライム",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 131,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 10,
     "name": "ファントム",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 132,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 20,
     "name": "ブロブ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 133,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 25,
     "name": "ブラックウーズ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 134,
@@ -37,7 +37,7 @@
     "rare": 2,
     "grade": 35,
     "name": "シャドウ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 135,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 45,
     "name": "マッドガッサー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 229,
@@ -53,6 +53,6 @@
     "rare": 2,
     "grade": 22,
     "name": "ジャック・リパー",
-    "fusion": false
+    "sacrifice": false
   }
 ]

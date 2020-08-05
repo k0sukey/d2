@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 2,
     "name": "ピクシー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 81,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 7,
     "name": "ジャックフロスト",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 82,
@@ -21,7 +21,7 @@
     "rare": 1,
     "grade": 13,
     "name": "ジャックランタン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 83,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 24,
     "name": "ハイピクシー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 84,
@@ -37,7 +37,7 @@
     "rare": 2,
     "grade": 35,
     "name": "ケルピー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 85,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 42,
     "name": "シルキー",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 86,
@@ -53,7 +53,7 @@
     "rare": 3,
     "grade": 47,
     "name": "セタンタ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 87,
@@ -61,7 +61,7 @@
     "rare": 4,
     "grade": 62,
     "name": "ティターニア",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 88,
@@ -69,7 +69,7 @@
     "rare": 4,
     "grade": 67,
     "name": "オベロン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 210,
@@ -77,6 +77,6 @@
     "rare": 2,
     "grade": 30,
     "name": "ナジャ",
-    "fusion": false
+    "sacrifice": false
   }
 ]

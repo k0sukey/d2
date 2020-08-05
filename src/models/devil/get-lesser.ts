@@ -2,14 +2,13 @@ import { Devil } from './devil';
 import { fromRace } from './from-race';
 
 export function getLesser(target: Devil): Devil | null {
-  const devils = fromRace(target.race).orderByGradeDesc();
-  const filtered = [...devils].filter((v) => v.fusion);
+  const devils = [...fromRace(target.race).getSacrifices().orderByGradeDesc()];
   let result: Devil | null = null;
 
-  for (let i = 0; i < filtered.length; i++) {
-    const candidate = filtered[i];
+  for (let i = 0; i < devils.length; i++) {
+    const candidate = devils[i];
     if (candidate.grade === target.grade) {
-      result = filtered[i + 1] ?? null;
+      result = devils[i + 1] ?? null;
     }
   }
 

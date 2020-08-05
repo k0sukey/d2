@@ -38,8 +38,8 @@ export class Devils {
     return new Devils(list);
   }
 
-  withoutSpecial(): Devils {
-    const list = this.list.filter((v) => v.fusion);
+  getSacrifices(): Devils {
+    const list = this.list.filter((v) => v.sacrifice);
     return new Devils(list);
   }
 

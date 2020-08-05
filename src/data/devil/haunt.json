@@ -5,7 +5,7 @@
     "rare": 1,
     "grade": 4,
     "name": "ガキ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 144,
@@ -13,7 +13,7 @@
     "rare": 1,
     "grade": 7,
     "name": "オバリヨン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 145,
@@ -21,7 +21,7 @@
     "rare": 2,
     "grade": 20,
     "name": "モウリョウ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 146,
@@ -29,7 +29,7 @@
     "rare": 2,
     "grade": 26,
     "name": "ピシャーチャ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 147,
@@ -37,7 +37,7 @@
     "rare": 2,
     "grade": 34,
     "name": "レギオン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 148,
@@ -45,7 +45,7 @@
     "rare": 3,
     "grade": 44,
     "name": "ラフィン・スカル",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 149,
@@ -53,6 +53,6 @@
     "rare": 3,
     "grade": 55,
     "name": "ヴェータラ",
-    "fusion": true
+    "sacrifice": true
   }
 ]

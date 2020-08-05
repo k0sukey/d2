@@ -5,7 +5,7 @@
     "rare": 3,
     "grade": 49,
     "name": "ホルス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 14,
@@ -13,7 +13,7 @@
     "rare": 3,
     "grade": 55,
     "name": "ミトラ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 15,
@@ -21,7 +21,7 @@
     "rare": 4,
     "grade": 67,
     "name": "プロメテウス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 16,
@@ -29,7 +29,7 @@
     "rare": 4,
     "grade": 73,
     "name": "オーディン",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 17,
@@ -37,7 +37,7 @@
     "rare": 5,
     "grade": 82,
     "name": "アマテラス",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 18,
@@ -45,7 +45,7 @@
     "rare": 5,
     "grade": 97,
     "name": "ヴィシュヌ",
-    "fusion": true
+    "sacrifice": true
   },
   {
     "no": 230,
@@ -53,7 +53,7 @@
     "rare": 5,
     "grade": 86,
     "name": "バアル",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 248,
@@ -61,7 +61,7 @@
     "rare": 5,
     "grade": 84,
     "name": "アタバク",
-    "fusion": false
+    "sacrifice": false
   },
   {
     "no": 249,
@@ -69,6 +69,6 @@
     "rare": 5,
     "grade": 93,
     "name": "ヴィローシャナ",
-    "fusion": false
+    "sacrifice": false
   }
 ]
