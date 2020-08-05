@@ -20,7 +20,11 @@ const Readme = () => {
         </li>
         <li>
           合体にかかる総マグネタイトとチャートの算出は、
-          <Link href="https://wikiwiki.jp/d2-megaten-l/%E4%BA%8C%E8%BA%AB%E5%90%88%E4%BD%93">
+          <Link
+            color="textPrimary"
+            underline="always"
+            href="https://wikiwiki.jp/d2-megaten-l/%E4%BA%8C%E8%BA%AB%E5%90%88%E4%BD%93"
+          >
             Ｄ×２ 真・女神転生リベレーション-5ch- Wiki*
           </Link>
           を参考にしています
