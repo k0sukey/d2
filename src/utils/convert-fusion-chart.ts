@@ -6,6 +6,11 @@ import { generateRaceMap } from './generate-race-map';
 import { generateFusionResult } from './generate-fusion-result';
 import {generateReverseFusion} from "./generate-reverse-fusion";
 
+/**
+ * refs https://wikiwiki.jp/d2-megaten-l
+ * refs https://dx2wiki.com/index.php/Main_Page
+ */
+
 const urlJa = 'https://d2-megaten-l.sega.jp/news/detail/077290.html';
 const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/077292.html';
 

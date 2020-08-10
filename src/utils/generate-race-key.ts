@@ -5,6 +5,11 @@ export async function generateRaceKey(list: string[]) {
   const code: string[] = [];
   code.push('export type RaceKey =');
   list.forEach((v) => code.push(`  | '${v}'`));
+  code.push(`  | 'Enigma'`);
+  code.push(`  | 'Entity'`);
+  code.push(`  | 'Rumor'`);
+  code.push(`  | 'UMA'`);
+  code.push(`  | 'Zealot'`);
   code.push(';');
 
   await fs.writeFileSync(

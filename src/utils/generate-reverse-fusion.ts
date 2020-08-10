@@ -25,9 +25,14 @@ export function generateReverseFusion(keys: string[], list: string[][]) {
       results[result].push([vertical, keys[i2]]);
     });
   });
+  results['Enigma'] = [];
+  results['Entity'] = [];
+  results['Rumor'] = [];
+  results['UMA'] = [];
+  results['Zealot'] = [];
 
   fs.writeFileSync(
-    path.join('src', 'data', 'reverse-_fusion.json'),
+    path.join('src', 'data', 'reverse-fusion.json'),
     format(JSON.stringify(results), { parser: 'json' }),
   );
 }

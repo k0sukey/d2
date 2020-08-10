@@ -46,6 +46,7 @@ const IndexPage = () => {
           <Autocomplete
             blurOnSelect
             disableListWrap
+            noOptionsText="悪魔が見つかりません"
             options={[...devils.getSacrifices().orderByRaceAndGradeAsc()]}
             groupBy={(option) => raceMap.get(option.race) ?? option.race}
             getOptionLabel={(option) => option.name}

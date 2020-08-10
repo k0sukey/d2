@@ -1,4 +1,4 @@
-import reverseFusion from '../../data/devil/reverse-fusion.json';
+import reverseFusion from '../../data/reverse-fusion.json';
 import { Devil } from '../devil/devil';
 import { getAll } from '../devil/get-all';
 import { getLesser } from '../devil/get-lesser';

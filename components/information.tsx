@@ -1,18 +1,16 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-import { getSumKarma } from '../src/models/fusion/get-sum-karma';
-import { getSumMagnetite } from '../src/models/fusion/get-sum-magnetite';
-import { Dendrogram } from '../src/models/devil/dendrogram';
 import { Devil } from '../src/models/devil/devil';
 import { raceMap } from '../src/models/race/race-map';
 
 type Props = {
   devil: Devil;
-  dendrogram: Dendrogram;
+  magnetite: number;
+  karma: number;
 };
 
-const Information = ({ devil, dendrogram }: Props) => (
+const Information = ({ devil, magnetite, karma }: Props) => (
   <>
     <dl>
       <dt>
@@ -31,17 +29,13 @@ const Information = ({ devil, dendrogram }: Props) => (
         <Typography variant="body2">合体に必要な総マグネタイト</Typography>
       </dt>
       <dd>
-        <Typography variant="body1">
-          {getSumMagnetite(dendrogram).toLocaleString()}
-        </Typography>
+        <Typography variant="body1">{magnetite.toLocaleString()}</Typography>
       </dd>
       <dt>
         <Typography variant="body2">召喚に必要な総カルマ</Typography>
       </dt>
       <dd>
-        <Typography variant="body1">
-          {getSumKarma(dendrogram).toLocaleString()}
-        </Typography>
+        <Typography variant="body1">{karma.toLocaleString()}</Typography>
       </dd>
     </dl>
   </>

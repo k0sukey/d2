@@ -1,17 +1,14 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-import { Dendrogram } from '../src/models/devil/dendrogram';
 import { Devils } from '../src/models/devil/devils';
-import { getCommons } from '../src/models/fusion/get-commons';
 
 type Props = {
   devils: Devils;
-  dendrogram: Dendrogram;
+  commons: { [no: number]: number };
 };
 
-const Commons = ({ devils, dendrogram }: Props) => {
-  const commons = getCommons(dendrogram);
+const Commons = ({ devils, commons }: Props) => {
   return (
     <>
       <dl>

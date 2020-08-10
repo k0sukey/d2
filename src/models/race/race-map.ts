@@ -31,4 +31,9 @@ export const raceMap = new Map<RaceKey, RaceLabel>([
   ['Tyrant', '魔王'],
   ['Drake', '邪龍'],
   ['Haunt', '幽鬼'],
+  ['Enigma', '秘神'],
+  ['Entity', '威霊'],
+  ['Rumor', '怪異'],
+  ['UMA', '珍獣'],
+  ['Zealot', '狂神'],
 ]);

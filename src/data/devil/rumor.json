@@ -1,0 +1,18 @@
+[
+  {
+    "no": 155,
+    "race": "Rumor",
+    "rare": 2,
+    "grade": 25,
+    "name": "かみおとこ",
+    "sacrifice": false
+  },
+  {
+    "no": 192,
+    "race": "Rumor",
+    "rare": 3,
+    "grade": 42,
+    "name": "カシマレイコ",
+    "sacrifice": false
+  }
+]

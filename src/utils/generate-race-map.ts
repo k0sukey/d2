@@ -8,6 +8,11 @@ import { RaceLabel } from './race-label';
 
 export const raceMap = new Map<RaceKey, RaceLabel>([`);
   keys.forEach((v, i) => code.push(`  ['${v}', '${labels[i]}'],`));
+  code.push(`  ['Enigma', '秘神'],`);
+  code.push(`  ['Entity', '威霊'],`);
+  code.push(`  ['Rumor', '怪異'],`);
+  code.push(`  ['UMA', '珍獣'],`);
+  code.push(`  ['Zealot', '狂神'],`);
   code.push(']);');
 
   await fs.writeFileSync(

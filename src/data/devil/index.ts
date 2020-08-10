@@ -30,6 +30,12 @@ import vile from './vile.json';
 import wilder from './wilder.json';
 import yoma from './yoma.json';
 
+import enigma from './enigma.json';
+import entity from './entity.json';
+import rumor from './rumor.json';
+import uma from './uma.json';
+import zealot from './zealot.json';
+
 const list = avatar.concat(
   [...avian],
   [...beast],
@@ -59,5 +65,10 @@ const list = avatar.concat(
   [...vile],
   [...wilder],
   [...yoma],
+  [...enigma],
+  [...entity],
+  [...rumor],
+  [...uma],
+  [...zealot],
 );
 export default new Devils(list.map((v) => ({ ...v, race: v.race as RaceKey })));

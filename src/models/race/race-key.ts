@@ -28,4 +28,9 @@ export type RaceKey =
   | 'Tyrant'
   | 'Drake'
   | 'Haunt'
+  | 'Enigma'
+  | 'Entity'
+  | 'Rumor'
+  | 'UMA'
+  | 'Zealot'
 ;

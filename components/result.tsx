@@ -9,6 +9,9 @@ import Stepper from '@material-ui/core/Stepper';
 import { Dendrogram } from '../src/models/devil/dendrogram';
 import { Devil } from '../src/models/devil/devil';
 import { getAll } from '../src/models/devil/get-all';
+import { getCommons } from '../src/models/fusion/get-commons';
+import { getSumKarma } from '../src/models/fusion/get-sum-karma';
+import { getSumMagnetite } from '../src/models/fusion/get-sum-magnetite';
 import Chart from './chart';
 import Commons from './commons';
 import Information from './information';
@@ -68,9 +71,17 @@ const Result = ({ devil }: Props) => {
                 {(() => {
                   switch (index) {
                     case 0:
-                      return <Information devil={devil} dendrogram={data} />;
+                      return (
+                        <Information
+                          devil={devil}
+                          magnetite={getSumMagnetite(data)}
+                          karma={getSumKarma(data)}
+                        />
+                      );
                     case 1:
-                      return <Commons devils={devils} dendrogram={data} />;
+                      return (
+                        <Commons devils={devils} commons={getCommons(data)} />
+                      );
                     case 2:
                       return <Chart dendrogram={data} />;
                   }

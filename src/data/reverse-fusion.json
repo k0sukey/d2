@@ -462,5 +462,10 @@
     ["Femme", "Raptor"],
     ["Femme", "Drake"],
     ["Femme", "Haunt"]
-  ]
+  ],
+  "Enigma": [],
+  "Entity": [],
+  "Rumor": [],
+  "UMA": [],
+  "Zealot": []
 }
