@@ -6,7 +6,7 @@ import { RaceKey } from '../race/race-key';
 
 /**
  * refs https://wikiwiki.jp/d2-megaten-l/%E4%BA%8C%E8%BA%AB%E5%90%88%E4%BD%93
- * Math.floor((Devil1.grade + Devil2.grade) / 2 + 1)
+ * Math.floor((a.grade + b.grade) / 2 + 1)
  */
 export function getSacrifices(result: Devil): [Devil, Devil][] {
   if (!reverseFusion.hasOwnProperty(result.race)) {
@@ -37,5 +37,16 @@ export function getSacrifices(result: Devil): [Devil, Devil][] {
     list = list.concat(results);
   });
 
-  return list;
+  const lesser =
+    lesserDevil === null
+      ? ({
+          no: 0,
+          name: '',
+          grade: 0,
+          rare: 0,
+          race: 'Herald',
+          sacrifice: true,
+        } as Devil)
+      : lesserDevil;
+  return list.concat([[lesser, lesser]]);
 }
