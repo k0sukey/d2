@@ -28,10 +28,7 @@ const Commons = ({ devils, commons }: Props) => {
               <TableCell align="center" padding="none">
                 <Typography variant="caption">種族</Typography>
               </TableCell>
-              <TableCell align="right" padding="none">
-                <Typography variant="caption">グレード</Typography>
-              </TableCell>
-              <TableCell>
+              <TableCell padding="none">
                 <Typography variant="caption">名前</Typography>
               </TableCell>
               <TableCell align="right" padding="none">
@@ -51,31 +48,28 @@ const Commons = ({ devils, commons }: Props) => {
                   <TableCell
                     align="right"
                     padding="none"
-                    style={{ width: '40px' }}
+                    style={{ width: '24px' }}
                   >
-                    {v.no}
+                    <Typography variant="caption">{v.no}</Typography>
                   </TableCell>
                   <TableCell
                     align="center"
                     padding="none"
                     style={{ width: '60px' }}
                   >
-                    {raceMap.get(v.race) ?? ''}
+                    <Typography variant="caption">
+                      {raceMap.get(v.race) ?? ''}
+                    </Typography>
+                  </TableCell>
+                  <TableCell padding="none">
+                    <Typography variant="caption">{v.name}</Typography>
                   </TableCell>
                   <TableCell
                     align="right"
                     padding="none"
                     style={{ width: '60px' }}
                   >
-                    {v.grade}
-                  </TableCell>
-                  <TableCell>{v.name}</TableCell>
-                  <TableCell
-                    align="right"
-                    padding="none"
-                    style={{ width: '60px' }}
-                  >
-                    {commons[n]}
+                    <Typography variant="caption">{commons[n]}</Typography>
                   </TableCell>
                 </TableRow>
               );

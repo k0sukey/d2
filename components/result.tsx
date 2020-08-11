@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import useSWR from 'swr';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
-import { createMuiTheme } from '@material-ui/core/styles';
 
 import { Dendrogram } from '../src/models/devil/dendrogram';
 import { Devil } from '../src/models/devil/devil';
@@ -42,64 +41,88 @@ const Result = ({ devil }: Props) => {
     return <Readme />;
   }
 
-  const theme = createMuiTheme();
-
   return (
     <>
       <div style={{ display: 'flex', flexGrow: 1, marginTop: '20px' }}>
-        <Tabs
-          orientation="vertical"
-          value={activeTab}
-          onChange={(_, index) => setActiveTab(index)}
-          style={{
-            width: '40px',
-            marginRight: '20px',
-            borderRight: `solid 1px ${theme.palette.divider}`,
-          }}
-        >
-          <Tab
-            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
-            label={
-              <span
-                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
-              >
-                基本情報
-              </span>
-            }
+        <div hidden={activeTab !== 0} style={{ width: 'calc(100% - 40px)' }}>
+          <Information
+            devil={devil}
+            magnetite={getSumMagnetite(data)}
+            karma={getSumKarma(data)}
           />
-          <Tab
-            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
-            label={
-              <span
-                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
-              >
-                悪魔全書から召喚
-              </span>
-            }
-          />
-          <Tab
-            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
-            label={
-              <span
-                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
-              >
-                合体チャート
-              </span>
-            }
-          />
-        </Tabs>
-        <div hidden={activeTab !== 0} style={{ width: '100%' }}>
-            <Information
-              devil={devil}
-              magnetite={getSumMagnetite(data)}
-              karma={getSumKarma(data)}
+        </div>
+        <div hidden={activeTab !== 1} style={{ width: 'calc(100% - 40px)' }}>
+          <Commons devils={devils} commons={getCommons(data)} />
+        </div>
+        <div hidden={activeTab !== 2} style={{ width: 'calc(100% - 40px)' }}>
+          <Chart dendrogram={data} />
+        </div>
+        <div style={{ position: 'fixed', right: '10px' }}>
+          <Tabs
+            orientation="vertical"
+            value={activeTab}
+            onChange={(_, index) => setActiveTab(index)}
+            style={{
+              width: '30px',
+              marginLeft: '10px',
+            }}
+            TabIndicatorProps={{ style: { left: 0 } }}
+          >
+            <Tab
+              style={{
+                width: '30px',
+                minWidth: '30px',
+                paddingRight: 0,
+                paddingLeft: 0,
+              }}
+              label={
+                <span
+                  style={{
+                    writingMode: 'vertical-rl',
+                    letterSpacing: '0.25em',
+                  }}
+                >
+                  基本情報
+                </span>
+              }
             />
-        </div>
-        <div hidden={activeTab !== 1} style={{ width: '100%' }}>
-            <Commons devils={devils} commons={getCommons(data)} />
-        </div>
-        <div hidden={activeTab !== 2} style={{ width: '100%' }}>
-            <Chart dendrogram={data} />
+            <Tab
+              style={{
+                width: '30px',
+                minWidth: '30px',
+                paddingRight: 0,
+                paddingLeft: 0,
+              }}
+              label={
+                <span
+                  style={{
+                    writingMode: 'vertical-rl',
+                    letterSpacing: '0.25em',
+                  }}
+                >
+                  悪魔全書から召喚
+                </span>
+              }
+            />
+            <Tab
+              style={{
+                width: '30px',
+                minWidth: '30px',
+                paddingRight: 0,
+                paddingLeft: 0,
+              }}
+              label={
+                <span
+                  style={{
+                    writingMode: 'vertical-rl',
+                    letterSpacing: '0.25em',
+                  }}
+                >
+                  合体チャート
+                </span>
+              }
+            />
+          </Tabs>
         </div>
       </div>
     </>
