@@ -48,26 +48,41 @@ const Commons = ({ devils, commons }: Props) => {
                   <TableCell
                     align="right"
                     padding="none"
-                    style={{ width: '24px' }}
+                    style={{
+                      width: '24px',
+                      paddingTop: '6px',
+                      paddingBottom: '6px',
+                    }}
                   >
                     <Typography variant="caption">{v.no}</Typography>
                   </TableCell>
                   <TableCell
                     align="center"
                     padding="none"
-                    style={{ width: '60px' }}
+                    style={{
+                      width: '60px',
+                      paddingTop: '6px',
+                      paddingBottom: '6px',
+                    }}
                   >
                     <Typography variant="caption">
                       {raceMap.get(v.race) ?? ''}
                     </Typography>
                   </TableCell>
-                  <TableCell padding="none">
+                  <TableCell
+                    padding="none"
+                    style={{ paddingTop: '6px', paddingBottom: '6px' }}
+                  >
                     <Typography variant="caption">{v.name}</Typography>
                   </TableCell>
                   <TableCell
                     align="right"
                     padding="none"
-                    style={{ width: '60px' }}
+                    style={{
+                      width: '60px',
+                      paddingTop: '6px',
+                      paddingBottom: '6px',
+                    }}
                   >
                     <Typography variant="caption">{commons[n]}</Typography>
                   </TableCell>
