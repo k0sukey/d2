@@ -61,7 +61,7 @@ const Result = ({ devil }: Props) => {
         <div hidden={activeTab !== 2} style={{ width: 'calc(100% - 40px)' }}>
           <Chart dendrogram={data} />
         </div>
-        <div style={{ position: 'fixed', right: '10px' }}>
+        <div style={{ position: 'fixed', right: '10px', bottom: '40px' }}>
           <Tabs
             orientation="vertical"
             value={activeTab}
