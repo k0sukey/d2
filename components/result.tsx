@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import useSWR from 'swr';
-import Button from '@material-ui/core/Button';
-import Step from '@material-ui/core/Step';
-import StepContent from '@material-ui/core/StepContent';
-import StepLabel from '@material-ui/core/StepLabel';
-import Stepper from '@material-ui/core/Stepper';
+import Tab from '@material-ui/core/Tab';
+import Tabs from '@material-ui/core/Tabs';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 import { Dendrogram } from '../src/models/devil/dendrogram';
 import { Devil } from '../src/models/devil/devil';
@@ -33,75 +31,77 @@ const fetcher = async (url: string): Promise<Dendrogram> => {
 
 const Result = ({ devil }: Props) => {
   const devils = getAll();
-  const [activeStep, setActiveStep] = useState<number>(0);
+  const [activeTab, setActiveTab] = useState<number>(0);
 
   const { data, error } = useSWR<Dendrogram, any>(
     () => devil && `/api/fusion/${devil.no}`,
     fetcher,
   );
 
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
-
   if (!devil || !data || error) {
     return <Readme />;
   }
 
+  const theme = createMuiTheme();
+
   return (
     <>
-      <Stepper
-        activeStep={activeStep}
-        orientation="vertical"
-        style={{
-          paddingRight: 0,
-          paddingLeft: 0,
-          backgroundColor: 'transparent',
-        }}
-      >
-        {['基本情報', '悪魔全書から召喚', '合体チャート'].map(
-          (label, index, array) => (
-            <Step key={label}>
-              <StepLabel>{label}</StepLabel>
-              <StepContent>
-                {(() => {
-                  switch (index) {
-                    case 0:
-                      return (
-                        <Information
-                          devil={devil}
-                          magnetite={getSumMagnetite(data)}
-                          karma={getSumKarma(data)}
-                        />
-                      );
-                    case 1:
-                      return (
-                        <Commons devils={devils} commons={getCommons(data)} />
-                      );
-                    case 2:
-                      return <Chart dendrogram={data} />;
-                  }
-                })()}
-                <div>
-                  <Button disabled={activeStep === 0} onClick={handleBack}>
-                    戻る
-                  </Button>
-                  <Button
-                    disabled={activeStep === array.length - 1}
-                    onClick={handleNext}
-                  >
-                    次へ
-                  </Button>
-                </div>
-              </StepContent>
-            </Step>
-          ),
-        )}
-      </Stepper>
+      <div style={{ display: 'flex', flexGrow: 1, marginTop: '20px' }}>
+        <Tabs
+          orientation="vertical"
+          value={activeTab}
+          onChange={(_, index) => setActiveTab(index)}
+          style={{
+            width: '40px',
+            marginRight: '20px',
+            borderRight: `solid 1px ${theme.palette.divider}`,
+          }}
+        >
+          <Tab
+            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
+            label={
+              <span
+                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
+              >
+                基本情報
+              </span>
+            }
+          />
+          <Tab
+            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
+            label={
+              <span
+                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
+              >
+                悪魔全書から召喚
+              </span>
+            }
+          />
+          <Tab
+            style={{ width: '40px', minWidth: '40px', paddingLeft: '6px' }}
+            label={
+              <span
+                style={{ writingMode: 'vertical-rl', letterSpacing: '0.25em' }}
+              >
+                合体チャート
+              </span>
+            }
+          />
+        </Tabs>
+        <div hidden={activeTab !== 0} style={{ width: '100%' }}>
+            <Information
+              devil={devil}
+              magnetite={getSumMagnetite(data)}
+              karma={getSumKarma(data)}
+            />
+        </div>
+        <div hidden={activeTab !== 1} style={{ width: '100%' }}>
+            <Commons devils={devils} commons={getCommons(data)} />
+        </div>
+        <div hidden={activeTab !== 2} style={{ width: '100%' }}>
+            <Chart dendrogram={data} />
+        </div>
+      </div>
     </>
   );
 };
