@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "build": "next build",
+    "build-checker": "ts-node -P tsconfig.command.json src/utils/build-checker.ts",
     "convert": "ts-node -P tsconfig.command.json src/utils/convert-fusion-chart.ts",
     "dev": "next",
     "start": "next start",
