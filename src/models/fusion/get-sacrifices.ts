@@ -48,5 +48,6 @@ export function getSacrifices(result: Devil): [Devil, Devil][] {
           sacrifice: true,
         } as Devil)
       : lesserDevil;
-  return list.concat([[lesser, lesser]]);
+  // return list;
+  return [[lesser, lesser]];
 }
