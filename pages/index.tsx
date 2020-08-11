@@ -48,6 +48,14 @@ const IndexPage = () => {
             disableListWrap
             noOptionsText="悪魔が見つかりません"
             options={[...devils.getSacrifices().orderByRaceAndGradeAsc()]}
+            filterOptions={(options, state) =>
+              options.filter((option) =>
+                state
+                  .getOptionLabel(option)
+                  .split('')
+                  .some((v) => v.localeCompare(state.inputValue, 'ja') === 0),
+              )
+            }
             groupBy={(option) => raceMap.get(option.race) ?? option.race}
             getOptionLabel={(option) => option.name}
             renderOption={(option) => <>{option.name}</>}
