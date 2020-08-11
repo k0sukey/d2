@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useSWR from 'swr';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
@@ -36,6 +36,10 @@ const Result = ({ devil }: Props) => {
     () => devil && `/api/fusion/${devil.no}`,
     fetcher,
   );
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [activeTab]);
 
   if (!devil || !data || error) {
     return <Readme />;
