@@ -25,7 +25,7 @@ export function getSacrifices(result: Devil): [Devil, Devil][] {
     const bDevils = [...devils.searchByRace(b).getSacrifices()];
     const results = aDevils.reduce((acc, curr) => {
       const list = bDevils.filter((v) => {
-        const grade = Math.floor((curr.grade + v.grade) / 2 + 1);
+        const grade = Math.floor((curr.grade + v.grade) / 2) + 1;
         return lesserGrade < grade && grade <= result.grade;
       });
 
@@ -37,17 +37,5 @@ export function getSacrifices(result: Devil): [Devil, Devil][] {
     list = list.concat(results);
   });
 
-  const lesser =
-    lesserDevil === null
-      ? ({
-          no: 0,
-          name: '',
-          grade: 0,
-          rare: 0,
-          race: 'Herald',
-          sacrifice: true,
-        } as Devil)
-      : lesserDevil;
-  // return list;
-  return [[lesser, lesser]];
+  return list;
 }
