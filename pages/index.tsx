@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React, { useEffect, useMemo, useState } from 'react';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -36,11 +35,6 @@ const IndexPage = () => {
 
   return (
     <>
-      <Head>
-        <title>d2</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Container
