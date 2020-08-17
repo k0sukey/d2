@@ -41,26 +41,37 @@ const Result = ({ devil }: Props) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [activeTab]);
 
-  if (!devil || !data || error) {
-    return <Readme />;
-  }
-
   return (
     <>
       <div style={{ display: 'flex', flexGrow: 1, marginTop: '20px' }}>
-        <div hidden={activeTab !== 0} style={{ width: 'calc(100% - 40px)' }}>
-          <Information
-            devil={devil}
-            magnetite={getSumMagnetite(data)}
-            karma={getSumKarma(data)}
-          />
-        </div>
-        <div hidden={activeTab !== 1} style={{ width: 'calc(100% - 40px)' }}>
-          <Commons devils={devils} commons={getCommons(data)} />
-        </div>
-        <div hidden={activeTab !== 2} style={{ width: 'calc(100% - 40px)' }}>
-          <Chart dendrogram={data} />
-        </div>
+        {!devil || !data || error ? (
+          <Readme />
+        ) : (
+          <>
+            <div
+              hidden={activeTab !== 0}
+              style={{ width: 'calc(100% - 40px)' }}
+            >
+              <Information
+                devil={devil}
+                magnetite={getSumMagnetite(data)}
+                karma={getSumKarma(data)}
+              />
+            </div>
+            <div
+              hidden={activeTab !== 1}
+              style={{ width: 'calc(100% - 40px)' }}
+            >
+              <Commons devils={devils} commons={getCommons(data)} />
+            </div>
+            <div
+              hidden={activeTab !== 2}
+              style={{ width: 'calc(100% - 40px)' }}
+            >
+              <Chart dendrogram={data} />
+            </div>
+          </>
+        )}
         <div style={{ position: 'fixed', right: '10px', bottom: '40px' }}>
           <Tabs
             orientation="vertical"
@@ -73,6 +84,7 @@ const Result = ({ devil }: Props) => {
             TabIndicatorProps={{ style: { left: 0 } }}
           >
             <Tab
+              disabled={!devil || !data || error}
               style={{
                 width: '30px',
                 minWidth: '30px',
@@ -91,6 +103,7 @@ const Result = ({ devil }: Props) => {
               }
             />
             <Tab
+              disabled={!devil || !data || error}
               style={{
                 width: '30px',
                 minWidth: '30px',
@@ -109,6 +122,7 @@ const Result = ({ devil }: Props) => {
               }
             />
             <Tab
+              disabled={!devil || !data || error}
               style={{
                 width: '30px',
                 minWidth: '30px',
