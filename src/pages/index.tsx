@@ -6,11 +6,12 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
-import { toKatakana } from '../src/lib/to-katakana';
-import { Devil } from '../src/models/devil/devil';
-import { getAll } from '../src/models/devil/get-all';
-import { raceMap } from '../src/models/race/race-map';
+import { toKatakana } from '../lib/to-katakana';
+import { Devil } from '../models/devil/devil';
+import { getAll } from '../models/devil/get-all';
+import { raceMap } from '../models/race/race-map';
 import Result from '../components/result';
+import Head from "next/head";
 
 const IndexPage = () => {
   const devils = getAll();
@@ -35,6 +36,21 @@ const IndexPage = () => {
 
   return (
     <>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+        <title>Dx2-f</title>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/icons/icon-180x180.png" />
+      </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Container

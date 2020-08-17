@@ -6,8 +6,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
 
-import { Devil } from '../src/models/devil/devil';
-import { raceMap } from '../src/models/race/race-map';
+import { Devil } from '../models/devil/devil';
+import { raceMap } from '../models/race/race-map';
 
 type Props = {
   devil: Devil;

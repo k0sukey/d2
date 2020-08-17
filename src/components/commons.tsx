@@ -7,8 +7,8 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
 
-import { Devils } from '../src/models/devil/devils';
-import { raceMap } from '../src/models/race/race-map';
+import { Devils } from '../models/devil/devils';
+import { raceMap } from '../models/race/race-map';
 
 type Props = {
   devils: Devils;

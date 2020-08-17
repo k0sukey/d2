@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-import { Dendrogram } from '../src/models/devil/dendrogram';
+import { Dendrogram } from '../models/devil/dendrogram';
 
 import styles from './chart.module.css';
 

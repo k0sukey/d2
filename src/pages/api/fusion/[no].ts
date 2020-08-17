@@ -1,10 +1,10 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { getMagnetite } from '../../../src/models/fusion/get-magnetite';
-import { getSacrifices } from '../../../src/models/fusion/get-sacrifices';
-import { Dendrogram } from '../../../src/models/devil/dendrogram';
-import { Devil } from '../../../src/models/devil/devil';
-import { getAll } from '../../../src/models/devil/get-all';
+import { getMagnetite } from '../../../models/fusion/get-magnetite';
+import { getSacrifices } from '../../../models/fusion/get-sacrifices';
+import { Dendrogram } from '../../../models/devil/dendrogram';
+import { Devil } from '../../../models/devil/devil';
+import { getAll } from '../../../models/devil/get-all';
 
 function terminatedSacrifice(result: Devil): Dendrogram {
   return { ...result, a: null, b: null, cost: null };
@@ -14,27 +14,32 @@ function getDumpingSacrifices(
   result: Devil,
   sacrifices: [Devil, Devil][],
 ): [Devil, Devil][] {
-  const a = sacrifices.filter(
-    ([a, b]) => a.grade < result.grade && b.grade < result.grade,
-  );
+  const a = sacrifices.filter(([a, b]) => a.rare === 2 && b.rare === 2);
   if (a.length > 0) {
     return a;
   }
 
   const b = sacrifices.filter(
-    ([a, b]) =>
-      (a.grade <= result.grade && b.grade < result.grade) ||
-      (a.grade < result.grade && b.grade <= result.grade),
+    ([a, b]) => a.grade < result.grade && b.grade < result.grade,
   );
   if (b.length > 0) {
     return b;
   }
 
   const c = sacrifices.filter(
-    ([a, b]) => a.grade <= result.grade && b.grade <= result.grade,
+    ([a, b]) =>
+      (a.grade <= result.grade && b.grade < result.grade) ||
+      (a.grade < result.grade && b.grade <= result.grade),
   );
   if (c.length > 0) {
     return c;
+  }
+
+  const d = sacrifices.filter(
+    ([a, b]) => a.grade <= result.grade && b.grade <= result.grade,
+  );
+  if (d.length > 0) {
+    return d;
   }
 
   return sacrifices;
@@ -67,7 +72,8 @@ function recursiveSacrifices(result: Devil, ancestors: number[]): Dendrogram {
       b !== undefined && b.rare > 2
         ? recursiveSacrifices(b, ancestors.concat(b.no))
         : terminatedSacrifice(b),
-    cost: a === undefined || b === undefined ? null : getMagnetite(result, a, b),
+    cost:
+      a === undefined || b === undefined ? null : getMagnetite(result, a, b),
   };
 }
 

@@ -3,12 +3,12 @@ import useSWR from 'swr';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 
-import { Dendrogram } from '../src/models/devil/dendrogram';
-import { Devil } from '../src/models/devil/devil';
-import { getAll } from '../src/models/devil/get-all';
-import { getCommons } from '../src/models/fusion/get-commons';
-import { getSumKarma } from '../src/models/fusion/get-sum-karma';
-import { getSumMagnetite } from '../src/models/fusion/get-sum-magnetite';
+import { Dendrogram } from '../models/devil/dendrogram';
+import { Devil } from '../models/devil/devil';
+import { getAll } from '../models/devil/get-all';
+import { getCommons } from '../models/fusion/get-commons';
+import { getSumKarma } from '../models/fusion/get-sum-karma';
+import { getSumMagnetite } from '../models/fusion/get-sum-magnetite';
 import Chart from './chart';
 import Commons from './commons';
 import Information from './information';
