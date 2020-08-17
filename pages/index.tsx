@@ -7,6 +7,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
+import { toKatakana } from '../src/lib/to-katakana';
 import { Devil } from '../src/models/devil/devil';
 import { getAll } from '../src/models/devil/get-all';
 import { raceMap } from '../src/models/race/race-map';
@@ -42,8 +43,12 @@ const IndexPage = () => {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Container maxWidth="sm" style={{ marginTop: '20px' }}>
+        <Container
+          maxWidth="sm"
+          style={{ height: '100vh', paddingTop: '24px', paddingBottom: '24px' }}
+        >
           <Autocomplete
+            fullWidth
             blurOnSelect
             disableListWrap
             noOptionsText="悪魔が見つかりません"
@@ -52,11 +57,9 @@ const IndexPage = () => {
               if (state.inputValue === '') {
                 return options;
               }
+              const regex = new RegExp(`${toKatakana(state.inputValue)}`);
               return options.filter((option) =>
-                state
-                  .getOptionLabel(option)
-                  .split('')
-                  .some((v) => v.localeCompare(state.inputValue, 'ja') === 0),
+                regex.test(toKatakana(state.getOptionLabel(option))),
               );
             }}
             groupBy={(option) => raceMap.get(option.race) ?? option.race}
