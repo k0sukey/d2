@@ -9,34 +9,28 @@ type Props = {
   dendrogram: Dendrogram;
 };
 
-const getDendrogram = (v: Dendrogram | null) => {
+const getDendrogram = (v: Dendrogram | null, tier: number) => {
   if (v === null) {
     return;
   }
 
-  const a = getDendrogram(v.a);
-  const b = getDendrogram(v.b);
+  const a = getDendrogram(v.a, tier + 1);
+  const b = getDendrogram(v.b, tier + 1);
   return (
     <>
       <dl className={styles.parent}>
         <dt>
-          <Typography variant="caption">{v.name}</Typography>
+          <Typography variant="caption" component="span">
+            {v.name}
+          </Typography>
         </dt>
-        {a && (
-          <dd className={styles.children}>
-            <Typography variant="caption">{a}</Typography>
-          </dd>
-        )}
-        {b && (
-          <dd className={styles.children}>
-            <Typography variant="caption">{b}</Typography>
-          </dd>
-        )}
+        {a && <dd className={styles.children}>{a}</dd>}
+        {b && <dd className={styles.children}>{b}</dd>}
       </dl>
     </>
   );
 };
 
-const Chart = ({ dendrogram }: Props) => <>{getDendrogram(dendrogram)}</>;
+const Chart = ({ dendrogram }: Props) => <>{getDendrogram(dendrogram, 1)}</>;
 
 export default Chart;
