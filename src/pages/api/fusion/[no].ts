@@ -96,5 +96,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   }
 
   const response = recursiveSacrifices(result, [result.no]);
+  res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate');
   res.status(200).json(response);
 };
