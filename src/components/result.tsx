@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import useSWR from 'swr';
-import Tab from '@material-ui/core/Tab';
-import Tabs from '@material-ui/core/Tabs';
 
-import { Dendrogram } from '../models/devil/dendrogram';
+import { Dendrogram } from '../models/fusion/dendrogram';
 import { Devil } from '../models/devil/devil';
-import { getAll } from '../models/devil/get-all';
 import { getCommons } from '../models/fusion/get-commons';
+import { getDendrogram } from '../models/fusion/get-dendrogram';
 import { getSumKarma } from '../models/fusion/get-sum-karma';
 import { getSumMagnetite } from '../models/fusion/get-sum-magnetite';
 import Chart from './chart';
@@ -16,26 +13,18 @@ import Readme from './readme';
 
 type Props = {
   devil: Devil | null;
+  activeTab: number;
 };
 
-const fetcher = async (url: string): Promise<Dendrogram> => {
-  const res = await fetch(url);
-  const data = await res.json();
+const Result = ({ devil, activeTab }: Props) => {
+  const [dendrogram, setDendrogram] = useState<Dendrogram | null>(null);
 
-  if (res.status !== 200) {
-    throw new Error(data.message);
-  }
-  return data as Dendrogram;
-};
-
-const Result = ({ devil }: Props) => {
-  const devils = getAll();
-  const [activeTab, setActiveTab] = useState<number>(0);
-
-  const { data, error } = useSWR<Dendrogram, any>(
-    () => devil && `/api/fusion/${devil.no}`,
-    fetcher,
-  );
+  useEffect(() => {
+    if (devil === null) {
+      return;
+    }
+    setDendrogram(getDendrogram(devil));
+  }, [devil]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -43,106 +32,25 @@ const Result = ({ devil }: Props) => {
 
   return (
     <>
-      <div style={{ display: 'flex', flexGrow: 1, marginTop: '20px' }}>
-        {!devil || !data || error ? (
-          <Readme />
-        ) : (
-          <>
-            <div
-              hidden={activeTab !== 0}
-              style={{ width: 'calc(100% - 40px)' }}
-            >
-              <Information
-                devil={devil}
-                magnetite={getSumMagnetite(data)}
-                karma={getSumKarma(data)}
-              />
-            </div>
-            <div
-              hidden={activeTab !== 1}
-              style={{ width: 'calc(100% - 40px)' }}
-            >
-              <Commons devils={devils} commons={getCommons(data)} />
-            </div>
-            <div
-              hidden={activeTab !== 2}
-              style={{ width: 'calc(100% - 40px)' }}
-            >
-              <Chart dendrogram={data} />
-            </div>
-          </>
-        )}
-        <div style={{ position: 'fixed', right: '10px', bottom: '40px' }}>
-          <Tabs
-            orientation="vertical"
-            value={activeTab}
-            onChange={(_, index) => setActiveTab(index)}
-            style={{
-              width: '30px',
-              marginLeft: '10px',
-            }}
-            TabIndicatorProps={{ style: { left: 0 } }}
-          >
-            <Tab
-              disabled={!devil || !data || error}
-              style={{
-                width: '30px',
-                minWidth: '30px',
-                paddingRight: 0,
-                paddingLeft: 0,
-              }}
-              label={
-                <span
-                  style={{
-                    writingMode: 'vertical-rl',
-                    letterSpacing: '0.25em',
-                  }}
-                >
-                  基本情報
-                </span>
-              }
+      {!devil || !dendrogram ? (
+        <Readme />
+      ) : (
+        <>
+          <div hidden={activeTab !== 0} style={{ width: '100%' }}>
+            <Information
+              devil={devil}
+              magnetite={getSumMagnetite(dendrogram)}
+              karma={getSumKarma(dendrogram)}
             />
-            <Tab
-              disabled={!devil || !data || error}
-              style={{
-                width: '30px',
-                minWidth: '30px',
-                paddingRight: 0,
-                paddingLeft: 0,
-              }}
-              label={
-                <span
-                  style={{
-                    writingMode: 'vertical-rl',
-                    letterSpacing: '0.25em',
-                  }}
-                >
-                  悪魔全書から召喚
-                </span>
-              }
-            />
-            <Tab
-              disabled={!devil || !data || error}
-              style={{
-                width: '30px',
-                minWidth: '30px',
-                paddingRight: 0,
-                paddingLeft: 0,
-              }}
-              label={
-                <span
-                  style={{
-                    writingMode: 'vertical-rl',
-                    letterSpacing: '0.25em',
-                  }}
-                >
-                  合体チャート
-                </span>
-              }
-            />
-          </Tabs>
-        </div>
-      </div>
+          </div>
+          <div hidden={activeTab !== 1} style={{ width: '100%' }}>
+            <Commons commons={getCommons(dendrogram)} />
+          </div>
+          <div hidden={activeTab !== 2} style={{ width: '100%' }}>
+            <Chart dendrogram={dendrogram} />
+          </div>
+        </>
+      )}
     </>
   );
 };

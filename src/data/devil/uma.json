@@ -2,7 +2,7 @@
   {
     "no": 156,
     "race": "UMA",
-    "rare": 1,
+    "rarity": 1,
     "grade": 15,
     "name": "チュパカブラ",
     "sacrifice": false
@@ -10,7 +10,7 @@
   {
     "no": 157,
     "race": "UMA",
-    "rare": 3,
+    "rarity": 3,
     "grade": 41,
     "name": "イナバシロウサギ",
     "sacrifice": false

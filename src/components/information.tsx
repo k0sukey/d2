@@ -30,7 +30,7 @@ const Information = ({ devil, magnetite, karma }: Props) => (
             <TableCell component="th" align="right" style={{ width: '140px' }}>
               <Typography variant="caption">レアリティ</Typography>
             </TableCell>
-            <TableCell>{devil.rare}</TableCell>
+            <TableCell>{devil.rarity}</TableCell>
           </TableRow>
           <TableRow>
             <TableCell component="th" align="right" style={{ width: '140px' }}>

@@ -2,7 +2,7 @@
   {
     "no": 214,
     "race": "Jirae",
-    "rare": 1,
+    "rarity": 1,
     "grade": 12,
     "name": "コロポックル",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 215,
     "race": "Jirae",
-    "rare": 2,
+    "rarity": 2,
     "grade": 22,
     "name": "コダマ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 216,
     "race": "Jirae",
-    "rare": 3,
+    "rarity": 3,
     "grade": 40,
     "name": "カハク",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 217,
     "race": "Jirae",
-    "rare": 3,
+    "rarity": 3,
     "grade": 46,
     "name": "カワンチャ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 218,
     "race": "Jirae",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "ティターン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 219,
     "race": "Jirae",
-    "rare": 4,
+    "rarity": 4,
     "grade": 66,
     "name": "トラルテクトリ",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 220,
     "race": "Jirae",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "ゴクマゴク",
     "sacrifice": true

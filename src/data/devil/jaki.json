@@ -2,7 +2,7 @@
   {
     "no": 183,
     "race": "Jaki",
-    "rare": 1,
+    "rarity": 1,
     "grade": 11,
     "name": "グレムリン",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 184,
     "race": "Jaki",
-    "rare": 2,
+    "rarity": 2,
     "grade": 26,
     "name": "イッポンダタラ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 185,
     "race": "Jaki",
-    "rare": 3,
+    "rarity": 3,
     "grade": 51,
     "name": "グレンデル",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 186,
     "race": "Jaki",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "ラクシャーサ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 187,
     "race": "Jaki",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "クドラク",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 188,
     "race": "Jaki",
-    "rare": 4,
+    "rarity": 4,
     "grade": 74,
     "name": "ヘカトンケイル",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 189,
     "race": "Jaki",
-    "rare": 5,
+    "rarity": 5,
     "grade": 81,
     "name": "じゃあくフロスト",
     "sacrifice": true

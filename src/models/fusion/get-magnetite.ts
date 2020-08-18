@@ -69,13 +69,13 @@ function getGradeCost(result: number): number {
 
 export function getMagnetite(result: Devil, a: Devil, b: Devil): number {
   const cost = Math.floor(
-    getBaseCost(result.rare, a.rare, b.rare) +
+    getBaseCost(result.rarity, a.rarity, b.rarity) +
       (result.grade - (a.grade + b.grade) / 2) * getGradeCost(result.grade),
   );
-  if (result.rare === 5) {
+  if (result.rarity === 5) {
     return Math.floor(cost * 0.7);
   }
-  if (result.rare === 4) {
+  if (result.rarity === 4) {
     return Math.floor(cost * 0.5);
   }
   return cost > 0 ? cost : 5;

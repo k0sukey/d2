@@ -2,7 +2,7 @@
   {
     "no": 250,
     "race": "Raptor",
-    "rare": 3,
+    "rarity": 3,
     "grade": 42,
     "name": "カルマッソ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 251,
     "race": "Raptor",
-    "rare": 3,
+    "rarity": 3,
     "grade": 49,
     "name": "モー・ショボー",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 252,
     "race": "Raptor",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "アンズー",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 253,
     "race": "Raptor",
-    "rare": 4,
+    "rarity": 4,
     "grade": 71,
     "name": "グルル",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 254,
     "race": "Raptor",
-    "rare": 5,
+    "rarity": 5,
     "grade": 84,
     "name": "フレスベルグ",
     "sacrifice": true

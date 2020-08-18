@@ -1,10 +1,7 @@
-import { NextApiRequest, NextApiResponse } from 'next';
-
-import { getMagnetite } from '../../../models/fusion/get-magnetite';
-import { getSacrifices } from '../../../models/fusion/get-sacrifices';
-import { Dendrogram } from '../../../models/fusion/dendrogram';
-import { Devil } from '../../../models/devil/devil';
-import { getAll } from '../../../models/devil/get-all';
+import { Devil } from '../devil/devil';
+import { Dendrogram } from './dendrogram';
+import { getSacrifices } from './get-sacrifices';
+import { getMagnetite } from './get-magnetite';
 
 function terminatedSacrifice(result: Devil): Dendrogram {
   return { ...result, a: null, b: null, cost: null };
@@ -77,25 +74,6 @@ function recursiveSacrifices(result: Devil, ancestors: number[]): Dendrogram {
   };
 }
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const {
-    query: { no },
-  } = req;
-
-  if (Array.isArray(no)) {
-    res.status(404);
-    return;
-  }
-
-  const devils = getAll();
-  const result = devils.find(parseInt(no, 10));
-
-  if (result === null) {
-    res.status(404);
-    return;
-  }
-
-  const response = recursiveSacrifices(result, [result.no]);
-  res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate');
-  res.status(200).json(response);
-};
+export function getDendrogram(result: Devil): Dendrogram {
+  return recursiveSacrifices(result, [result.no]);
+}

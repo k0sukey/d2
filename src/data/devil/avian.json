@@ -2,7 +2,7 @@
   {
     "no": 161,
     "race": "Avian",
-    "rare": 2,
+    "rarity": 2,
     "grade": 24,
     "name": "ハンサ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 162,
     "race": "Avian",
-    "rare": 2,
+    "rarity": 2,
     "grade": 28,
     "name": "スパルナ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 163,
     "race": "Avian",
-    "rare": 3,
+    "rarity": 3,
     "grade": 44,
     "name": "ジャターユ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 164,
     "race": "Avian",
-    "rare": 3,
+    "rarity": 3,
     "grade": 53,
     "name": "スザク",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 165,
     "race": "Avian",
-    "rare": 4,
+    "rarity": 4,
     "grade": 66,
     "name": "ヤタガラス",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 166,
     "race": "Avian",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "ガルーダ",
     "sacrifice": true

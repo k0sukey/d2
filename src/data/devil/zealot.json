@@ -2,7 +2,7 @@
   {
     "no": 167,
     "race": "Zealot",
-    "rare": 4,
+    "rarity": 4,
     "grade": 65,
     "name": "アディス",
     "sacrifice": false
@@ -10,7 +10,7 @@
   {
     "no": 193,
     "race": "Zealot",
-    "rare": 4,
+    "rarity": 4,
     "grade": 64,
     "name": "ディオニュソス",
     "sacrifice": false

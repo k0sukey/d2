@@ -2,7 +2,7 @@
   {
     "no": 68,
     "race": "Snake",
-    "rare": 1,
+    "rarity": 1,
     "grade": 15,
     "name": "ノズチ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 69,
     "race": "Snake",
-    "rare": 2,
+    "rarity": 2,
     "grade": 28,
     "name": "ナーガ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 70,
     "race": "Snake",
-    "rare": 3,
+    "rarity": 3,
     "grade": 45,
     "name": "ゲンブ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 71,
     "race": "Snake",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "ヤマタノオロチ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 72,
     "race": "Snake",
-    "rare": 4,
+    "rarity": 4,
     "grade": 70,
     "name": "ユルング",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 73,
     "race": "Snake",
-    "rare": 5,
+    "rarity": 5,
     "grade": 83,
     "name": "アナンタ",
     "sacrifice": true

@@ -2,7 +2,7 @@
   {
     "no": 61,
     "race": "Yoma",
-    "rare": 1,
+    "rarity": 1,
     "grade": 5,
     "name": "アガシオン",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 62,
     "race": "Yoma",
-    "rare": 1,
+    "rarity": 1,
     "grade": 7,
     "name": "コッパテング",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 63,
     "race": "Yoma",
-    "rare": 1,
+    "rarity": 1,
     "grade": 11,
     "name": "アプサラス",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 64,
     "race": "Yoma",
-    "rare": 2,
+    "rarity": 2,
     "grade": 34,
     "name": "ディース",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 65,
     "race": "Yoma",
-    "rare": 3,
+    "rarity": 3,
     "grade": 40,
     "name": "ヴァルキリー",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 66,
     "race": "Yoma",
-    "rare": 3,
+    "rarity": 3,
     "grade": 52,
     "name": "イフリート",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 67,
     "race": "Yoma",
-    "rare": 4,
+    "rarity": 4,
     "grade": 66,
     "name": "ガネーシャ",
     "sacrifice": true

@@ -2,7 +2,7 @@
   {
     "no": 103,
     "race": "Femme",
-    "rare": 1,
+    "rarity": 1,
     "grade": 12,
     "name": "リャナンシー",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 104,
     "race": "Femme",
-    "rare": 2,
+    "rarity": 2,
     "grade": 23,
     "name": "ヨモツシコメ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 105,
     "race": "Femme",
-    "rare": 2,
+    "rarity": 2,
     "grade": 34,
     "name": "ヤクシニー",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 106,
     "race": "Femme",
-    "rare": 3,
+    "rarity": 3,
     "grade": 42,
     "name": "マーメイド",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 107,
     "race": "Femme",
-    "rare": 3,
+    "rarity": 3,
     "grade": 53,
     "name": "ダーキニー",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 108,
     "race": "Femme",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "ランダ",
     "sacrifice": true

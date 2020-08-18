@@ -2,7 +2,7 @@
   {
     "no": 109,
     "race": "Night",
-    "rare": 1,
+    "rarity": 1,
     "grade": 5,
     "name": "モコイ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 110,
     "race": "Night",
-    "rare": 1,
+    "rarity": 1,
     "grade": 10,
     "name": "ザントマン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 111,
     "race": "Night",
-    "rare": 2,
+    "rarity": 2,
     "grade": 21,
     "name": "インキュバス",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 112,
     "race": "Night",
-    "rare": 2,
+    "rarity": 2,
     "grade": 30,
     "name": "フォーモリア",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 113,
     "race": "Night",
-    "rare": 3,
+    "rarity": 3,
     "grade": 42,
     "name": "キウン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 114,
     "race": "Night",
-    "rare": 3,
+    "rarity": 3,
     "grade": 47,
     "name": "リリム",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 115,
     "race": "Night",
-    "rare": 4,
+    "rarity": 4,
     "grade": 63,
     "name": "サキュバス",
     "sacrifice": true
@@ -58,7 +58,7 @@
   {
     "no": 116,
     "race": "Night",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "リリス",
     "sacrifice": true

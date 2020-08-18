@@ -2,7 +2,7 @@
   {
     "no": 24,
     "race": "Holy",
-    "rare": 2,
+    "rarity": 2,
     "grade": 27,
     "name": "ヘケト",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 25,
     "race": "Holy",
-    "rare": 3,
+    "rarity": 3,
     "grade": 42,
     "name": "ユニコーン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 26,
     "race": "Holy",
-    "rare": 3,
+    "rarity": 3,
     "grade": 44,
     "name": "アピス",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 27,
     "race": "Holy",
-    "rare": 3,
+    "rarity": 3,
     "grade": 48,
     "name": "ビャッコ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 28,
     "race": "Holy",
-    "rare": 4,
+    "rarity": 4,
     "grade": 62,
     "name": "スレイプニル",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 29,
     "race": "Holy",
-    "rare": 4,
+    "rarity": 4,
     "grade": 76,
     "name": "スフィンクス",
     "sacrifice": true

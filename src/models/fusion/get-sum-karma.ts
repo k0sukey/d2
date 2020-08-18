@@ -1,4 +1,4 @@
-import { Dendrogram } from '../devil/dendrogram';
+import { Dendrogram } from './dendrogram';
 
 function getKarma(v: number): number {
   if (v === 1) {
@@ -11,11 +11,11 @@ function getKarma(v: number): number {
 
 function recursive(cost: number, v: Dendrogram): number {
   if (v.cost === null) {
-    return getKarma(v.rare);
+    return getKarma(v.rarity);
   }
   return (
-    (v.a !== null ? recursive(cost, v.a) : getKarma(v.rare)) +
-    (v.b !== null ? recursive(cost, v.b) : getKarma(v.rare))
+    (v.a !== null ? recursive(cost, v.a) : getKarma(v.rarity)) +
+    (v.b !== null ? recursive(cost, v.b) : getKarma(v.rarity))
   );
 }
 

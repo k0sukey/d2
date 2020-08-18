@@ -2,7 +2,7 @@
   {
     "no": 47,
     "race": "Kishin",
-    "rare": 2,
+    "rarity": 2,
     "grade": 27,
     "name": "タケミナカタ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 48,
     "race": "Kishin",
-    "rare": 3,
+    "rarity": 3,
     "grade": 41,
     "name": "ゾウチョウテン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 49,
     "race": "Kishin",
-    "rare": 3,
+    "rarity": 3,
     "grade": 50,
     "name": "コウモクテン",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 50,
     "race": "Kishin",
-    "rare": 4,
+    "rarity": 4,
     "grade": 62,
     "name": "ジコクテン",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 51,
     "race": "Kishin",
-    "rare": 4,
+    "rarity": 4,
     "grade": 70,
     "name": "ビシャモンテン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 52,
     "race": "Kishin",
-    "rare": 4,
+    "rarity": 4,
     "grade": 75,
     "name": "ショウキ",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 53,
     "race": "Kishin",
-    "rare": 5,
+    "rarity": 5,
     "grade": 83,
     "name": "トール",
     "sacrifice": true

@@ -1,27 +1,41 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import Head from 'next/head';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useWindowWidth } from '@react-hook/window-size';
 
 import { toKatakana } from '../lib/to-katakana';
 import { Devil } from '../models/devil/devil';
 import { getAll } from '../models/devil/get-all';
 import { raceMap } from '../models/race/race-map';
 import Result from '../components/result';
-import Head from "next/head";
+import Tabs from '../components/tabs';
 
 const IndexPage = () => {
   const devils = getAll();
   const [focused, setFocused] = useState<Devil | null>(null);
+  const [activeTab, setActiveTab] = useState<number>(0);
+  const [tabsRight, setTabsRight] = useState<number>(0);
+  const windowWidth = useWindowWidth();
+  const resultEl = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (focused === null) {
       return;
     }
   }, [focused]);
+
+  useEffect(() => {
+    if (resultEl.current === null) {
+      return;
+    }
+    const { right } = resultEl.current.getBoundingClientRect();
+    setTabsRight(windowWidth - right - 40);
+  }, [windowWidth]);
 
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const theme = useMemo(
@@ -80,7 +94,31 @@ const IndexPage = () => {
             )}
             onChange={(_: unknown, value: Devil | null) => setFocused(value)}
           />
-          <Result devil={focused} />
+          <div
+            ref={resultEl}
+            style={{
+              display: 'flex',
+              position: 'relative',
+              width: 'calc(100% - 40px)',
+              marginTop: '20px',
+              marginBottom: '40px',
+            }}
+          >
+            <Result devil={focused} activeTab={activeTab} />
+          </div>
+          <div
+            style={{
+              position: 'fixed',
+              right: `${tabsRight}px`,
+              bottom: '40px',
+              width: '40px',
+            }}
+          >
+            <Tabs
+              disabled={!focused}
+              onChange={(index) => setActiveTab(index)}
+            />
+          </div>
         </Container>
       </ThemeProvider>
     </>

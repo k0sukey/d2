@@ -2,7 +2,7 @@
   {
     "no": 173,
     "race": "Dragon",
-    "rare": 2,
+    "rarity": 2,
     "grade": 35,
     "name": "パトリムパス",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 174,
     "race": "Dragon",
-    "rare": 3,
+    "rarity": 3,
     "grade": 41,
     "name": "マカラ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 175,
     "race": "Dragon",
-    "rare": 3,
+    "rarity": 3,
     "grade": 47,
     "name": "イルルヤンカシュ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 176,
     "race": "Dragon",
-    "rare": 4,
+    "rarity": 4,
     "grade": 63,
     "name": "セイリュウ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 177,
     "race": "Dragon",
-    "rare": 4,
+    "rarity": 4,
     "grade": 69,
     "name": "グクマッツ",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 178,
     "race": "Dragon",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "ケツアルカトル",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 179,
     "race": "Dragon",
-    "rare": 5,
+    "rarity": 5,
     "grade": 88,
     "name": "コウリュウ",
     "sacrifice": true

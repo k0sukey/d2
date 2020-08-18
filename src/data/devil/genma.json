@@ -2,7 +2,7 @@
   {
     "no": 30,
     "race": "Genma",
-    "rare": 2,
+    "rarity": 2,
     "grade": 27,
     "name": "クラマテング",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 31,
     "race": "Genma",
-    "rare": 3,
+    "rarity": 3,
     "grade": 40,
     "name": "タム・リン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 32,
     "race": "Genma",
-    "rare": 3,
+    "rarity": 3,
     "grade": 49,
     "name": "クルースニク",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 33,
     "race": "Genma",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "ハヌマーン",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 34,
     "race": "Genma",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "ツクヨミ",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 35,
     "race": "Genma",
-    "rare": 5,
+    "rarity": 5,
     "grade": 81,
     "name": "クー・フーリン",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 244,
     "race": "Genma",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "フロストエース",
     "sacrifice": false

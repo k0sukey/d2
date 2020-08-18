@@ -2,7 +2,7 @@
   {
     "no": 168,
     "race": "Entity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 85,
     "name": "アリラト",
     "sacrifice": false

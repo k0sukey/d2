@@ -7,15 +7,16 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
 
-import { Devils } from '../models/devil/devils';
+import { getAll } from '../models/devil/get-all';
 import { raceMap } from '../models/race/race-map';
 
 type Props = {
-  devils: Devils;
   commons: { [no: number]: number };
 };
 
-const Commons = ({ devils, commons }: Props) => {
+const Commons = ({ commons }: Props) => {
+  const devils = getAll();
+
   return (
     <>
       <TableContainer>

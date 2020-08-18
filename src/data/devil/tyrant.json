@@ -2,7 +2,7 @@
   {
     "no": 136,
     "race": "Tyrant",
-    "rare": 3,
+    "rarity": 3,
     "grade": 46,
     "name": "オーカス",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 137,
     "race": "Tyrant",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "アバドン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 138,
     "race": "Tyrant",
-    "rare": 4,
+    "rarity": 4,
     "grade": 68,
     "name": "ベルゼブブ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 139,
     "race": "Tyrant",
-    "rare": 4,
+    "rarity": 4,
     "grade": 75,
     "name": "ロキ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 140,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 83,
     "name": "スルト",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 141,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 90,
     "name": "マーラ",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 142,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 98,
     "name": "ルシファー",
     "sacrifice": true
@@ -58,7 +58,7 @@
   {
     "no": 172,
     "race": "Tyrant",
-    "rare": 4,
+    "rarity": 4,
     "grade": 64,
     "name": "キングフロスト",
     "sacrifice": true
@@ -66,7 +66,7 @@
   {
     "no": 247,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 81,
     "name": "ヘカーテ",
     "sacrifice": false
@@ -74,7 +74,7 @@
   {
     "no": 255,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 92,
     "name": "ルキフグス",
     "sacrifice": false
@@ -82,7 +82,7 @@
   {
     "no": 258,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "ツィツィミトル",
     "sacrifice": false
@@ -90,7 +90,7 @@
   {
     "no": 260,
     "race": "Tyrant",
-    "rare": 5,
+    "rarity": 5,
     "grade": 85,
     "name": "ベリアル",
     "sacrifice": false

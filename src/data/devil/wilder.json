@@ -2,7 +2,7 @@
   {
     "no": 123,
     "race": "Wilder",
-    "rare": 1,
+    "rarity": 1,
     "grade": 4,
     "name": "チャグリン",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 124,
     "race": "Wilder",
-    "rare": 1,
+    "rarity": 1,
     "grade": 9,
     "name": "ケルピー",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 125,
     "race": "Wilder",
-    "rare": 2,
+    "rarity": 2,
     "grade": 20,
     "name": "ライジュウ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 126,
     "race": "Wilder",
-    "rare": 2,
+    "rarity": 2,
     "grade": 25,
     "name": "ヌエ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 127,
     "race": "Wilder",
-    "rare": 3,
+    "rarity": 3,
     "grade": 41,
     "name": "モスマン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 128,
     "race": "Wilder",
-    "rare": 3,
+    "rarity": 3,
     "grade": 46,
     "name": "ピアレイ",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 129,
     "race": "Wilder",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "フェンリル",
     "sacrifice": true

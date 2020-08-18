@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 const Readme = () => {
   return (
     <>
-      <div style={{ width: 'calc(100% - 40px)' }}>
+      <div style={{ width: '100%' }}>
         <Typography style={{ marginTop: '20px' }}>
           「Ｄ×２
           真・女神転生リベレーション」で、合体で作れる悪魔の合体チャートを生成します。

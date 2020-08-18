@@ -2,7 +2,7 @@
   {
     "no": 13,
     "race": "Deity",
-    "rare": 3,
+    "rarity": 3,
     "grade": 49,
     "name": "ホルス",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 14,
     "race": "Deity",
-    "rare": 3,
+    "rarity": 3,
     "grade": 55,
     "name": "ミトラ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 15,
     "race": "Deity",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "プロメテウス",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 16,
     "race": "Deity",
-    "rare": 4,
+    "rarity": 4,
     "grade": 73,
     "name": "オーディン",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 17,
     "race": "Deity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 82,
     "name": "アマテラス",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 18,
     "race": "Deity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 97,
     "name": "ヴィシュヌ",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 230,
     "race": "Deity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 86,
     "name": "バアル",
     "sacrifice": false
@@ -58,7 +58,7 @@
   {
     "no": 248,
     "race": "Deity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 84,
     "name": "アタバク",
     "sacrifice": false
@@ -66,7 +66,7 @@
   {
     "no": 249,
     "race": "Deity",
-    "rare": 5,
+    "rarity": 5,
     "grade": 93,
     "name": "ヴィローシャナ",
     "sacrifice": false

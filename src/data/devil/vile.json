@@ -2,7 +2,7 @@
   {
     "no": 117,
     "race": "Vile",
-    "rare": 2,
+    "rarity": 2,
     "grade": 26,
     "name": "アブラクサス",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 118,
     "race": "Vile",
-    "rare": 3,
+    "rarity": 3,
     "grade": 41,
     "name": "バフォメット",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 119,
     "race": "Vile",
-    "rare": 3,
+    "rarity": 3,
     "grade": 50,
     "name": "アラハバキ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 120,
     "race": "Vile",
-    "rare": 4,
+    "rarity": 4,
     "grade": 62,
     "name": "パズス",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 121,
     "race": "Vile",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "ギリメカラ",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 122,
     "race": "Vile",
-    "rare": 5,
+    "rarity": 5,
     "grade": 84,
     "name": "セト",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 201,
     "race": "Vile",
-    "rare": 4,
+    "rarity": 4,
     "grade": 65,
     "name": "ミシャグジさま",
     "sacrifice": false

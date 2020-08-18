@@ -2,7 +2,7 @@
   {
     "no": 54,
     "race": "Divine",
-    "rare": 2,
+    "rarity": 2,
     "grade": 20,
     "name": "エンジェル",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 55,
     "race": "Divine",
-    "rare": 2,
+    "rarity": 2,
     "grade": 25,
     "name": "アークエンジェル",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 56,
     "race": "Divine",
-    "rare": 2,
+    "rarity": 2,
     "grade": 35,
     "name": "プリンシパリティ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 57,
     "race": "Divine",
-    "rare": 3,
+    "rarity": 3,
     "grade": 40,
     "name": "パワー",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 58,
     "race": "Divine",
-    "rare": 3,
+    "rarity": 3,
     "grade": 47,
     "name": "ヴァーチャー",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 59,
     "race": "Divine",
-    "rare": 3,
+    "rarity": 3,
     "grade": 53,
     "name": "ドミニオン",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 60,
     "race": "Divine",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "ソロネ",
     "sacrifice": true

@@ -2,7 +2,7 @@
   {
     "no": 41,
     "race": "Lady",
-    "rare": 3,
+    "rarity": 3,
     "grade": 40,
     "name": "ペレ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 42,
     "race": "Lady",
-    "rare": 3,
+    "rarity": 3,
     "grade": 47,
     "name": "クシナダヒメ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 43,
     "race": "Lady",
-    "rare": 3,
+    "rarity": 3,
     "grade": 54,
     "name": "イシス",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 44,
     "race": "Lady",
-    "rare": 4,
+    "rarity": 4,
     "grade": 60,
     "name": "キクリヒメ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 45,
     "race": "Lady",
-    "rare": 4,
+    "rarity": 4,
     "grade": 67,
     "name": "スカディ",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 46,
     "race": "Lady",
-    "rare": 5,
+    "rarity": 5,
     "grade": 83,
     "name": "アシェラト",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 222,
     "race": "Lady",
-    "rare": 5,
+    "rarity": 5,
     "grade": 85,
     "name": "キュベレ",
     "sacrifice": false
@@ -58,7 +58,7 @@
   {
     "no": 262,
     "race": "Lady",
-    "rare": 5,
+    "rarity": 5,
     "grade": 86,
     "name": "セイオウボ",
     "sacrifice": false
@@ -66,7 +66,7 @@
   {
     "no": 263,
     "race": "Lady",
-    "rare": 5,
+    "rarity": 5,
     "grade": 89,
     "name": "カーリー",
     "sacrifice": false

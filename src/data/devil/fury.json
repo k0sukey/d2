@@ -2,7 +2,7 @@
   {
     "no": 36,
     "race": "Fury",
-    "rare": 3,
+    "rarity": 3,
     "grade": 44,
     "name": "アレス",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 37,
     "race": "Fury",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "セイテンタイセイ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 38,
     "race": "Fury",
-    "rare": 4,
+    "rarity": 4,
     "grade": 69,
     "name": "ホクトセイクン",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 39,
     "race": "Fury",
-    "rare": 5,
+    "rarity": 5,
     "grade": 82,
     "name": "スサノオ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 40,
     "race": "Fury",
-    "rare": 5,
+    "rarity": 5,
     "grade": 93,
     "name": "シヴァ",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 180,
     "race": "Fury",
-    "rare": 5,
+    "rarity": 5,
     "grade": 85,
     "name": "ザオウゴンゲン",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 224,
     "race": "Fury",
-    "rare": 5,
+    "rarity": 5,
     "grade": 80,
     "name": "カルティケーヤ",
     "sacrifice": false

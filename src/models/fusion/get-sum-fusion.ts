@@ -1,4 +1,4 @@
-import { Dendrogram } from '../devil/dendrogram';
+import { Dendrogram } from './dendrogram';
 
 function recursive(count: number, v: Dendrogram): number {
   if (v.cost === null) {

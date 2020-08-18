@@ -1,4 +1,4 @@
-import { Devil } from './devil';
+import { Devil } from '../devil/devil';
 
 export type Dendrogram = Devil & {
   a: Dendrogram | null;

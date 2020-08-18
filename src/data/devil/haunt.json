@@ -2,7 +2,7 @@
   {
     "no": 143,
     "race": "Haunt",
-    "rare": 1,
+    "rarity": 1,
     "grade": 4,
     "name": "ガキ",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 144,
     "race": "Haunt",
-    "rare": 1,
+    "rarity": 1,
     "grade": 7,
     "name": "オバリヨン",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 145,
     "race": "Haunt",
-    "rare": 2,
+    "rarity": 2,
     "grade": 20,
     "name": "モウリョウ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 146,
     "race": "Haunt",
-    "rare": 2,
+    "rarity": 2,
     "grade": 26,
     "name": "ピシャーチャ",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 147,
     "race": "Haunt",
-    "rare": 2,
+    "rarity": 2,
     "grade": 34,
     "name": "レギオン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 148,
     "race": "Haunt",
-    "rare": 3,
+    "rarity": 3,
     "grade": 44,
     "name": "ラフィン・スカル",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 149,
     "race": "Haunt",
-    "rare": 3,
+    "rarity": 3,
     "grade": 55,
     "name": "ヴェータラ",
     "sacrifice": true

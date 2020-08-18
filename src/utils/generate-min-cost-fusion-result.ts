@@ -17,12 +17,12 @@ const list = [...getAll().getSacrifices()].map((devil) => {
   sacrifices.sort(
     ([a1, b1], [a2, b2]) =>
       a1.grade +
-      a1.rare +
+      a1.rarity +
       b1.grade +
-      b1.rare -
-      (a2.grade + a2.rare + b2.grade + b2.rare),
+      b1.rarity -
+      (a2.grade + a2.rarity + b2.grade + b2.rarity),
   );
-  const [a, b] = devil.rare > 2 ? sacrifices[0] : [null, null];
+  const [a, b] = devil.rarity > 2 ? sacrifices[0] : [null, null];
   const cost = a !== null && b !== null ? getMagnetite(devil, a, b) : null;
   fs.writeFileSync(
     path.join(dir, `${devil.no}.json`),

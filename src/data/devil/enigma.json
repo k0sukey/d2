@@ -2,7 +2,7 @@
   {
     "no": 158,
     "race": "Enigma",
-    "rare": 2,
+    "rarity": 2,
     "grade": 30,
     "name": "カンバリ",
     "sacrifice": false
@@ -10,7 +10,7 @@
   {
     "no": 159,
     "race": "Enigma",
-    "rare": 3,
+    "rarity": 3,
     "grade": 55,
     "name": "キンマモン",
     "sacrifice": false
@@ -18,7 +18,7 @@
   {
     "no": 160,
     "race": "Enigma",
-    "rare": 4,
+    "rarity": 4,
     "grade": 75,
     "name": "カーマ",
     "sacrifice": false
@@ -26,7 +26,7 @@
   {
     "no": 243,
     "race": "Enigma",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "ネコショウグン",
     "sacrifice": false

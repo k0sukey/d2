@@ -2,7 +2,7 @@
   {
     "no": 74,
     "race": "Beast",
-    "rare": 1,
+    "rarity": 1,
     "grade": 3,
     "name": "カーシー",
     "sacrifice": true
@@ -10,7 +10,7 @@
   {
     "no": 75,
     "race": "Beast",
-    "rare": 1,
+    "rarity": 1,
     "grade": 9,
     "name": "イヌガミ",
     "sacrifice": true
@@ -18,7 +18,7 @@
   {
     "no": 76,
     "race": "Beast",
-    "rare": 1,
+    "rarity": 1,
     "grade": 14,
     "name": "ネコマタ",
     "sacrifice": true
@@ -26,7 +26,7 @@
   {
     "no": 77,
     "race": "Beast",
-    "rare": 2,
+    "rarity": 2,
     "grade": 35,
     "name": "オルトロス",
     "sacrifice": true
@@ -34,7 +34,7 @@
   {
     "no": 78,
     "race": "Beast",
-    "rare": 3,
+    "rarity": 3,
     "grade": 44,
     "name": "アーマーン",
     "sacrifice": true
@@ -42,7 +42,7 @@
   {
     "no": 79,
     "race": "Beast",
-    "rare": 4,
+    "rarity": 4,
     "grade": 61,
     "name": "ケルベロス",
     "sacrifice": true
@@ -50,7 +50,7 @@
   {
     "no": 221,
     "race": "Beast",
-    "rare": 2,
+    "rarity": 2,
     "grade": 20,
     "name": "カブソ",
     "sacrifice": false

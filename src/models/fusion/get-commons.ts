@@ -1,4 +1,4 @@
-import { Dendrogram } from '../devil/dendrogram';
+import { Dendrogram } from './dendrogram';
 
 function recursive(commons: number[], v: Dendrogram): number[] {
   if (v.a === null && v.b === null) {
