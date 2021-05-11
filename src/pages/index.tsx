@@ -15,6 +15,7 @@ import Tabs from '../components/tabs';
 const IndexPage = () => {
   const devils = getAll();
   const [focused, setFocused] = useState<Devil | null>(null);
+  const [inputValue, setInputValue] = useState<string>('');
   const [activeTab, setActiveTab] = useState<number>(0);
   const [tabsRight, setTabsRight] = useState<number>(0);
   const windowWidth = useWindowWidth();
@@ -45,6 +46,7 @@ const IndexPage = () => {
     }
 
     setFocused(devil);
+    setInputValue(devil.name);
   }, []);
 
   useEffect(() => {
@@ -76,7 +78,8 @@ const IndexPage = () => {
       >
         <Autocomplete
           value={focused}
-          inputValue={focused ? focused.name : ''}
+          inputValue={inputValue}
+          onInputChange={(_: unknown, value) => setInputValue(value)}
           fullWidth
           blurOnSelect
           disableListWrap
