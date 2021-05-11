@@ -1,10 +1,11 @@
 .parent {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
 }
 
 .children {
   position: relative;
+  margin-bottom: 0.25em;
   margin-left: 20px;
 }
 

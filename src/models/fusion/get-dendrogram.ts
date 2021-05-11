@@ -3,8 +3,10 @@ import { Dendrogram } from './dendrogram';
 import { getSacrifices } from './get-sacrifices';
 import { getMagnetite } from './get-magnetite';
 
+let nodeNo = 0;
+
 function terminatedSacrifice(result: Devil): Dendrogram {
-  return { ...result, a: null, b: null, cost: null };
+  return { ...result, a: null, b: null, cost: null, nodeNo: ++nodeNo };
 }
 
 function getDumpingSacrifices(
@@ -49,6 +51,11 @@ function recursiveSacrifices(result: Devil, ancestors: number[]): Dendrogram {
       ([a, b]) => !ancestors.includes(a.no) && !ancestors.includes(b.no),
     ),
   );
+
+  if (sacrifices.length === 0) {
+    return { ...result, a: null, b: null, cost: null, nodeNo: ++nodeNo };
+  }
+
   sacrifices.sort(
     ([a1, b1], [a2, b2]) =>
       a1.grade +
@@ -71,6 +78,7 @@ function recursiveSacrifices(result: Devil, ancestors: number[]): Dendrogram {
         : terminatedSacrifice(b),
     cost:
       a === undefined || b === undefined ? null : getMagnetite(result, a, b),
+    nodeNo: ++nodeNo,
   };
 }
 

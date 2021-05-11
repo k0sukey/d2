@@ -1,36 +1,94 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import CheckIcon from '@material-ui/icons/Check';
 
 import { Dendrogram } from '../models/fusion/dendrogram';
-
-import styles from './chart.module.css';
 
 type Props = {
   dendrogram: Dendrogram;
 };
 
-const getDendrogram = (v: Dendrogram | null, tier: number) => {
-  if (v === null) {
+const getChecked = (target: number, checked: number[]) => {
+  return checked.includes(target) ? (
+    <CheckIcon style={{ fontSize: '10px' }} color="secondary" />
+  ) : null;
+};
+
+const getChartFragment = ({
+  fragment,
+  checked,
+  onToggle,
+}: {
+  fragment: Dendrogram | null;
+  checked: number[];
+  onToggle(v: number): void;
+}) => {
+  if (fragment === null) {
     return;
   }
 
-  const a = getDendrogram(v.a, tier + 1);
-  const b = getDendrogram(v.b, tier + 1);
+  const a = getChartFragment({ fragment: fragment.a, checked, onToggle });
+  const b = getChartFragment({ fragment: fragment.b, checked, onToggle });
   return (
     <>
-      <dl className={styles.parent}>
-        <dt>
-          <Typography variant="caption" component="span">
-            {v.name}
-          </Typography>
+      <dl key={`dendrogram-${fragment.nodeNo}`} className="parent">
+        <dt key={`dendrogram-parent-${fragment.nodeNo}`}>
+          <Button
+            size="small"
+            disableRipple
+            style={{ padding: 0, textAlign: 'left', justifyContent: 'left' }}
+            onClick={() => onToggle(fragment?.nodeNo)}
+          >
+            <Typography variant="caption" component="span">
+              {fragment.name}
+              {getChecked(fragment.nodeNo, checked)}
+            </Typography>
+          </Button>
         </dt>
-        {a && <dd className={styles.children}>{a}</dd>}
-        {b && <dd className={styles.children}>{b}</dd>}
+        {a && (
+          <dd
+            key={`dendrogram-children-${fragment.a!.nodeNo}`}
+            className="children"
+          >
+            {a}
+          </dd>
+        )}
+        {b && (
+          <dd
+            key={`dendrogram-children-${fragment.b!.nodeNo}`}
+            className="children"
+          >
+            {b}
+          </dd>
+        )}
       </dl>
     </>
   );
 };
 
-const Chart = ({ dendrogram }: Props) => <>{getDendrogram(dendrogram, 1)}</>;
+const Chart = ({ dendrogram }: Props) => {
+  const [checked, setChecked] = useState<number[]>([]);
+  const handleToggle = useCallback(
+    (no: number) => {
+      setChecked(
+        checked.includes(no)
+          ? checked.filter((v) => v !== no)
+          : checked.concat(no),
+      );
+    },
+    [checked],
+  );
+
+  return (
+    <>
+      {getChartFragment({
+        fragment: dendrogram,
+        checked,
+        onToggle: handleToggle,
+      })}
+    </>
+  );
+};
 
 export default Chart;
