@@ -22,11 +22,9 @@ const IndexPage = () => {
   const resultEl = useRef<HTMLDivElement>(null);
 
   const handleDevil = useCallback((devil: Devil | null) => {
-    if (devil === null) {
-      window.location.replace(window.location.origin);
-      return;
-    }
-    window.location.replace(`${window.location.origin}#${devil.no}`);
+    window.location.replace(
+      `${window.location.origin}#${devil !== null ? devil.no : ''}`,
+    );
     setFocused(devil);
   }, []);
 
@@ -70,7 +68,10 @@ const IndexPage = () => {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <title>{focused ? `${focused.name} - ` : ''}Dx2-f</title>
+        <title>
+          {focused ? `${raceMap.get(focused.race)} ${focused.name} - ` : ''}
+          Dx2-f
+        </title>
       </Head>
       <Container
         maxWidth="sm"
