@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
@@ -13,6 +14,7 @@ import Result from '../components/result';
 import Tabs from '../components/tabs';
 
 const IndexPage = () => {
+  const router = useRouter();
   const devils = getAll();
   const [focused, setFocused] = useState<Devil | null>(null);
   const [inputValue, setInputValue] = useState<string>('');
@@ -21,10 +23,9 @@ const IndexPage = () => {
   const windowWidth = useWindowWidth();
   const resultEl = useRef<HTMLDivElement>(null);
 
-  const handleDevil = useCallback((devil: Devil | null) => {
-    window.location.replace(
-      `${window.location.origin}#${devil !== null ? devil.no : ''}`,
-    );
+  const handleDevil = useCallback(async (devil: Devil | null) => {
+    console.log(devil);
+    await router.push(`/#${devil !== null ? devil.no : ''}`);
     setFocused(devil);
   }, []);
 
@@ -113,7 +114,11 @@ const IndexPage = () => {
             marginBottom: '40px',
           }}
         >
-          <Result devil={focused} activeTab={activeTab} />
+          <Result
+            devil={focused}
+            activeTab={activeTab}
+            onChange={handleDevil}
+          />
         </div>
         <div
           style={{

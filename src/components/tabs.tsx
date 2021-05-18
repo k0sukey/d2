@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import React, { useEffect, useMemo, useState } from 'react';
 import Tab from '@material-ui/core/Tab';
 import MaterialUiTabs from '@material-ui/core/Tabs';
@@ -8,7 +9,9 @@ type Props = {
 };
 
 const Tabs = ({ disabled, onChange }: Props) => {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState<number>(0);
+
   const tabs = useMemo(() => {
     return ['基本情報', '悪魔全書から召喚', '合体チャート', '合体パターン'];
   }, []);
@@ -16,6 +19,17 @@ const Tabs = ({ disabled, onChange }: Props) => {
   useEffect(() => {
     onChange(activeTab);
   }, [activeTab]);
+
+  useEffect(() => {
+    const handleHashchange = () => {
+      setActiveTab(0);
+    };
+
+    router.events.on('hashChangeStart', handleHashchange);
+    return () => {
+      router.events.off('hashChangeStart', handleHashchange);
+    };
+  }, []);
 
   return (
     <>

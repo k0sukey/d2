@@ -16,10 +16,12 @@ import Readme from './readme';
 type Props = {
   devil: Devil | null;
   activeTab: number;
+  onChange: (devil: Devil) => void;
 };
 
-const Result = ({ devil, activeTab }: Props) => {
+const Result = ({ devil, activeTab, onChange }: Props) => {
   const [dendrogram, setDendrogram] = useState<Dendrogram | null>(null);
+
   const sacrifices = useMemo(() => {
     if (devil === null) {
       return [];
@@ -58,7 +60,7 @@ const Result = ({ devil, activeTab }: Props) => {
             <Chart dendrogram={dendrogram} />
           </div>
           <div hidden={activeTab !== 3} style={{ width: '100%' }}>
-            <Patterns sacrifices={sacrifices} />
+            <Patterns sacrifices={sacrifices} onChange={onChange} />
           </div>
         </>
       )}

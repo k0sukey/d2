@@ -1,11 +1,11 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Chip from '@material-ui/core/Chip';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import StarIcon from '@material-ui/icons/Star';
 import Typography from '@material-ui/core/Typography';
+import StarIcon from '@material-ui/icons/Star';
 import Rating from '@material-ui/lab/Rating';
 
 import { Devil } from '../models/devil/devil';
@@ -13,9 +13,10 @@ import { raceMap } from '../models/race/race-map';
 
 type Props = {
   sacrifices: [Devil, Devil][];
+  onChange: (devil: Devil) => void;
 };
 
-const Patterns = ({ sacrifices }: Props) => {
+const Patterns = ({ sacrifices, onChange }: Props) => {
   const [rarities, setRarities] = useState([1, 2, 3, 4, 5]);
 
   const handleRarities = useCallback(
@@ -28,6 +29,10 @@ const Patterns = ({ sacrifices }: Props) => {
     },
     [rarities],
   );
+
+  useEffect(() => {
+    setRarities([1, 2, 3, 4, 5]);
+  }, [sacrifices]);
 
   return (
     <>
@@ -119,7 +124,12 @@ const Patterns = ({ sacrifices }: Props) => {
                       <Typography variant="caption">
                         {raceMap.get(a.race)} {a.grade}
                       </Typography>
-                      <Typography variant="subtitle2">{a.name}</Typography>
+                      <Typography
+                        variant="subtitle2"
+                        style={{ fontWeight: 'bold' }}
+                      >
+                        {a.name}
+                      </Typography>
                     </>
                   }
                   secondary={
@@ -130,6 +140,7 @@ const Patterns = ({ sacrifices }: Props) => {
                     />
                   }
                   style={{ flexBasis: '45%' }}
+                  onClick={() => onChange(a)}
                 />
                 <ListItemText primary="×" style={{ flexBasis: '10%' }} />
                 <ListItemText
@@ -138,7 +149,12 @@ const Patterns = ({ sacrifices }: Props) => {
                       <Typography variant="caption">
                         {raceMap.get(b.race)} {b.grade}
                       </Typography>
-                      <Typography variant="subtitle2">{b.name}</Typography>
+                      <Typography
+                        variant="subtitle2"
+                        style={{ fontWeight: 'bold' }}
+                      >
+                        {b.name}
+                      </Typography>
                     </>
                   }
                   secondary={
@@ -150,6 +166,7 @@ const Patterns = ({ sacrifices }: Props) => {
                   }
                   primaryTypographyProps={{ variant: 'caption' }}
                   style={{ flexBasis: '45%' }}
+                  onClick={() => onChange(b)}
                 />
               </ListItem>
               <Divider component="li" />
