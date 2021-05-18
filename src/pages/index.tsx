@@ -24,7 +24,6 @@ const IndexPage = () => {
   const resultEl = useRef<HTMLDivElement>(null);
 
   const handleDevil = useCallback(async (devil: Devil | null) => {
-    console.log(devil);
     await router.push(`/#${devil !== null ? devil.no : ''}`);
     setFocused(devil);
   }, []);
