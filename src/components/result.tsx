@@ -1,6 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo } from 'react';
 
-import { Dendrogram } from '../models/fusion/dendrogram';
 import { Devil } from '../models/devil/devil';
 import { getCommons } from '../models/fusion/get-commons';
 import { getDendrogram } from '../models/fusion/get-dendrogram';
@@ -20,20 +19,20 @@ type Props = {
 };
 
 const Result = ({ devil, activeTab, onChange }: Props) => {
-  const [dendrogram, setDendrogram] = useState<Dendrogram | null>(null);
-
   const sacrifices = useMemo(() => {
     if (devil === null) {
       return [];
     }
-    return getSacrifices(devil);
+    const tmp = getSacrifices(devil);
+    tmp.sort(([a], [b]) => a.no - b.no);
+    return tmp;
   }, [devil]);
 
-  useEffect(() => {
+  const dendrogram = useMemo(() => {
     if (devil === null) {
-      return;
+      return null;
     }
-    setDendrogram(getDendrogram(devil));
+    return getDendrogram(devil);
   }, [devil]);
 
   useEffect(() => {

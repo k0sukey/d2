@@ -1,4 +1,10 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Container from '@material-ui/core/Container';
@@ -19,9 +25,16 @@ const IndexPage = () => {
   const [focused, setFocused] = useState<Devil | null>(null);
   const [inputValue, setInputValue] = useState<string>('');
   const [activeTab, setActiveTab] = useState<number>(0);
-  const [tabsRight, setTabsRight] = useState<number>(0);
   const windowWidth = useWindowWidth();
   const resultEl = useRef<HTMLDivElement>(null);
+
+  const tabsRight = useMemo(() => {
+    if (resultEl.current === null) {
+      return 0;
+    }
+    const { right } = resultEl.current.getBoundingClientRect();
+    return windowWidth - right - 40;
+  }, [windowWidth]);
 
   const handleDevil = useCallback(async (devil: Devil | null) => {
     await router.push(`/#${devil !== null ? devil.no : ''}`);
@@ -46,20 +59,6 @@ const IndexPage = () => {
     setFocused(devil);
     setInputValue(devil.name);
   }, []);
-
-  useEffect(() => {
-    if (focused === null) {
-      return;
-    }
-  }, [focused]);
-
-  useEffect(() => {
-    if (resultEl.current === null) {
-      return;
-    }
-    const { right } = resultEl.current.getBoundingClientRect();
-    setTabsRight(windowWidth - right - 40);
-  }, [windowWidth]);
 
   return (
     <>
