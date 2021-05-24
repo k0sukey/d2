@@ -10,14 +10,18 @@ import Rating from '@material-ui/lab/Rating';
 
 import { Devil } from '../models/devil/devil';
 import { raceMap } from '../models/race/race-map';
+import { useRaceFilter } from '../lib/use-race-filter';
 
 type Props = {
   sacrifices: [Devil, Devil][];
   onChange: (devil: Devil) => void;
 };
 
+const defaultRarities = [1, 2, 3, 4, 5];
+
 const Patterns = ({ sacrifices, onChange }: Props) => {
-  const [rarities, setRarities] = useState([1, 2, 3, 4, 5]);
+  const [rarities, setRarities] = useState(defaultRarities);
+  const [allRaces, races, toggleRaces] = useRaceFilter(sacrifices);
 
   const handleRarities = useCallback(
     (rarity: number) => {
@@ -31,12 +35,12 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
   );
 
   useEffect(() => {
-    setRarities([1, 2, 3, 4, 5]);
+    setRarities(defaultRarities);
   }, [sacrifices]);
 
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <Chip
           icon={
             rarities.includes(1) ? (
@@ -49,6 +53,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
           size="small"
           label="1"
           onClick={() => handleRarities(1)}
+          style={{ marginRight: '10px', marginBottom: '6px' }}
         />
         <Chip
           icon={
@@ -62,6 +67,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
           size="small"
           label="2"
           onClick={() => handleRarities(2)}
+          style={{ marginRight: '10px', marginBottom: '6px' }}
         />
         <Chip
           icon={
@@ -75,6 +81,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
           size="small"
           label="3"
           onClick={() => handleRarities(3)}
+          style={{ marginRight: '10px', marginBottom: '6px' }}
         />
         <Chip
           icon={
@@ -88,6 +95,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
           size="small"
           label="4"
           onClick={() => handleRarities(4)}
+          style={{ marginRight: '10px', marginBottom: '6px' }}
         />
         <Chip
           icon={
@@ -101,7 +109,20 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
           size="small"
           label="5"
           onClick={() => handleRarities(5)}
+          style={{ marginRight: '10px', marginBottom: '6px' }}
         />
+      </div>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {allRaces.map((race) => (
+          <Chip
+            key={`race-filter-${race}`}
+            variant={races.includes(race) ? 'default' : 'outlined'}
+            size="small"
+            label={raceMap.get(race)}
+            onClick={() => toggleRaces(race)}
+            style={{ marginRight: '10px', marginBottom: '6px' }}
+          />
+        ))}
       </div>
       <List>
         {sacrifices
@@ -109,6 +130,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
             ([a, b]) =>
               rarities.includes(a.rarity) && rarities.includes(b.rarity),
           )
+          .filter(([a, b]) => races.includes(a.race) && races.includes(b.race))
           .map(([a, b]) => (
             <React.Fragment key={`${a.no}-${b.no}`}>
               <ListItem
@@ -139,7 +161,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
                       value={a.rarity}
                     />
                   }
-                  style={{ flexBasis: '45%' }}
+                  style={{ flexBasis: '45%', cursor: 'pointer' }}
                   onClick={() => onChange(a)}
                 />
                 <ListItemText primary="×" style={{ flexBasis: '10%' }} />
@@ -165,7 +187,7 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
                     />
                   }
                   primaryTypographyProps={{ variant: 'caption' }}
-                  style={{ flexBasis: '45%' }}
+                  style={{ flexBasis: '45%', cursor: 'pointer' }}
                   onClick={() => onChange(b)}
                 />
               </ListItem>
