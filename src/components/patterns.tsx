@@ -28,15 +28,10 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
         {allRarities.map((rarity) => (
           <Chip
             key={`rarity-filter-${rarity}`}
-            icon={
-              rarities.includes(rarity) ? (
-                <StarIcon style={{ color: '#ffb400' }} />
-              ) : (
-                <StarIcon />
-              )
-            }
-            variant={rarities.includes(rarity) ? 'default' : 'outlined'}
+            icon={<StarIcon />}
+            variant="outlined"
             size="small"
+            color={rarities.includes(rarity) ? 'secondary' : 'default'}
             label={rarity}
             onClick={() => toggleRarities(rarity)}
             style={{ marginRight: '10px', marginBottom: '6px' }}
@@ -47,8 +42,9 @@ const Patterns = ({ sacrifices, onChange }: Props) => {
         {allRaces.map((race) => (
           <Chip
             key={`race-filter-${race}`}
-            variant={races.includes(race) ? 'default' : 'outlined'}
+            variant="outlined"
             size="small"
+            color={races.includes(race) ? 'secondary' : 'default'}
             label={raceMap.get(race)}
             onClick={() => toggleRaces(race)}
             style={{ marginRight: '10px', marginBottom: '6px' }}
