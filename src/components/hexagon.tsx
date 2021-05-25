@@ -77,19 +77,19 @@ const Hexagon = ({
       >
         <polygon
           stroke="none"
-          points="0,80 180,0 200,20 200,120 20,200 0,180"
+          points="0,60 180,0 200,20 200,140 20,200 0,180"
         />
         <polygon
           id="base"
           fill="white"
           stroke="none"
           opacity="0.6"
-          points="0,80 180,0 200,20 200,110 20,190, 0,170"
+          points="0,60 180,0 200,20 200,130 20,190, 0,170"
         />
         <text
           id="label"
           x="50%"
-          y="145"
+          y="135"
           textAnchor="middle"
           dominantBaseline="central"
           fontSize="44"
@@ -97,10 +97,10 @@ const Hexagon = ({
           style={{
             fill: active ? 'white' : 'black',
             textShadow: active
-              ? '1px 1px 4px rgba(245,0,87,0.7), -1px 1px 4px rgba(245,0,87,0.7), 1px -1px 4px rgba(245,0,87,0.7), -1px -1px 4px rgba(245,0,87,0.7)'
+              ? '4px 4px 10px rgba(245,0,87,0.7), -4px 4px 10px rgba(245,0,87,0.7), 4px -4px 10px rgba(245,0,87,0.7), -4px -4px 10px rgba(245,0,87,0.7)'
               : '1px 1px 4px rgba(255,255,255,0.7), -1px 1px 4px rgba(255,255,255,0.7), 1px -1px 4px rgba(255,255,255,0.7), -1px -1px 4px rgba(255,255,255,0.7)',
           }}
-          transform="skewY(-25)"
+          transform="skewY(-19)"
         >
           {label}
         </text>
@@ -116,14 +116,14 @@ const Hexagon = ({
           fill="white"
           stroke="none"
           opacity="0.3"
-          points="20,190 200,110 200,120 20,200"
+          points="20,190 200,130 200,140 20,200"
         />
         <polygon
           fill="none"
           stroke="white"
           strokeWidth="1"
           opacity="0.6"
-          points="0,80 180,0 200,20 200,110 20,190 0,170"
+          points="0,60 180,0 200,20 200,130 20,190 0,170"
         />
       </svg>
     </button>
