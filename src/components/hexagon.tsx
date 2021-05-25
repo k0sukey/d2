@@ -83,7 +83,7 @@ const Hexagon = ({
           id="base"
           fill="white"
           stroke="none"
-          opacity="0.6"
+          opacity="0.8"
           points="0,60 180,0 200,20 200,130 20,190, 0,170"
         />
         <text

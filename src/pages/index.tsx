@@ -33,7 +33,7 @@ const IndexPage = () => {
       return 0;
     }
     const { right } = resultEl.current.getBoundingClientRect();
-    return windowWidth - right;
+    return windowWidth - right - 40;
   }, [windowWidth]);
 
   const handleDevil = useCallback(async (devil: Devil | null) => {
@@ -107,9 +107,9 @@ const IndexPage = () => {
           style={{
             display: 'flex',
             position: 'relative',
-            width: '100%',
+            width: 'calc(100% - 40px)',
             marginTop: '20px',
-            paddingBottom: '80px',
+            paddingBottom: '40px',
           }}
         >
           <Result
@@ -122,7 +122,8 @@ const IndexPage = () => {
           style={{
             position: 'fixed',
             right: `${tabsRight}px`,
-            bottom: '20px',
+            bottom: '40px',
+            width: '40px',
           }}
         >
           <Tabs disabled={!focused} onChange={(index) => setActiveTab(index)} />
