@@ -27,13 +27,13 @@ export function getRaptorFusionResult(key: RaceKey): RaceKey | null {
     case 'Divine':
       return 'Foul';
     case 'Yoma':
-      return 'Haunt';
+      return 'Wood';
     case 'Snake':
       return 'Fury';
     case 'Beast':
       return 'Avian';
     case 'Fairy':
-      return 'Night';
+      return 'Wood';
     case 'Jirae':
       return 'Foul';
     case 'Jaki':
@@ -43,13 +43,15 @@ export function getRaptorFusionResult(key: RaceKey): RaceKey | null {
     case 'Brute':
       return 'Haunt';
     case 'Femme':
-      return 'Foul';
+      return 'Wood';
     case 'Night':
-      return 'Vile';
+      return 'Wood';
     case 'Vile':
       return 'Drake';
     case 'Raptor':
       return null;
+    case 'Wood':
+      return 'Vile';
     case 'Wilder':
       return 'Dragon';
     case 'Foul':

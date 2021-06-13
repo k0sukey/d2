@@ -28,6 +28,7 @@ import snake from './snake.json';
 import tyrant from './tyrant.json';
 import vile from './vile.json';
 import wilder from './wilder.json';
+import wood from './wood.json';
 import yoma from './yoma.json';
 
 import enigma from './enigma.json';
@@ -64,6 +65,7 @@ const list = avatar.concat(
   [...tyrant],
   [...vile],
   [...wilder],
+  [...wood],
   [...yoma],
   [...enigma],
   [...entity],

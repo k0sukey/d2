@@ -50,6 +50,8 @@ export function getGenmaFusionResult(key: RaceKey): RaceKey | null {
       return 'Fallen';
     case 'Raptor':
       return 'Lady';
+    case 'Wood':
+      return 'Yoma';
     case 'Wilder':
       return 'Yoma';
     case 'Foul':

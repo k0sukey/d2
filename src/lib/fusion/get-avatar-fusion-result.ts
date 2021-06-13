@@ -50,6 +50,8 @@ export function getAvatarFusionResult(key: RaceKey): RaceKey | null {
       return 'Deity';
     case 'Raptor':
       return 'Wilder';
+    case 'Wood':
+      return 'Brute';
     case 'Wilder':
       return 'Beast';
     case 'Foul':

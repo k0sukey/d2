@@ -50,6 +50,8 @@ export function getFoulFusionResult(key: RaceKey): RaceKey | null {
       return 'Haunt';
     case 'Raptor':
       return 'Avian';
+    case 'Wood':
+      return 'Beast';
     case 'Wilder':
       return 'Beast';
     case 'Foul':

@@ -26,6 +26,7 @@ export const raceMap = new Map<RaceKey, RaceLabel>([
   ['Night', '夜魔'],
   ['Vile', '邪神'],
   ['Raptor', '凶鳥'],
+  ['Wood', '妖樹'],
   ['Wilder', '妖獣'],
   ['Foul', '外道'],
   ['Tyrant', '魔王'],

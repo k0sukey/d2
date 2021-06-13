@@ -1,67 +1,67 @@
 import { RaceKey } from '../../models/race/race-key';
 
-export function getNightFusionResult(key: RaceKey): RaceKey | null {
+export function getWoodFusionResult(key: RaceKey): RaceKey | null {
   switch (key) {
     case 'Herald':
-      return 'Fallen';
+      return 'Night';
     case 'Megami':
-      return 'Fallen';
+      return 'Haunt';
     case 'Avian':
       return 'Raptor';
     case 'Deity':
-      return 'Wilder';
+      return 'Night';
     case 'Avatar':
-      return 'Holy';
+      return 'Brute';
     case 'Holy':
-      return 'Jirae';
+      return 'Night';
     case 'Genma':
-      return 'Holy';
-    case 'Fury':
-      return 'Jirae';
-    case 'Dragon':
-      return 'Femme';
-    case 'Lady':
-      return 'Kishin';
-    case 'Kishin':
-      return 'Femme';
-    case 'Divine':
-      return 'Snake';
-    case 'Yoma':
-      return 'Avatar';
-    case 'Snake':
-      return 'Fairy';
-    case 'Beast':
-      return 'Fairy';
-    case 'Fairy':
-      return 'Divine';
-    case 'Jirae':
-      return 'Fairy';
-    case 'Jaki':
       return 'Yoma';
+    case 'Fury':
+      return 'Vile';
+    case 'Dragon':
+      return 'Holy';
+    case 'Lady':
+      return 'Yoma';
+    case 'Kishin':
+      return 'Brute';
+    case 'Divine':
+      return 'Jirae';
+    case 'Yoma':
+      return 'Drake';
+    case 'Snake':
+      return 'Drake';
+    case 'Beast':
+      return 'Wilder';
+    case 'Fairy':
+      return 'Brute';
+    case 'Jirae':
+      return 'Foul';
+    case 'Jaki':
+      return 'Jirae';
     case 'Fallen':
-      return 'Deity';
+      return 'Foul';
     case 'Brute':
-      return 'Avian';
+      return 'Foul';
     case 'Femme':
-      return 'Divine';
+      return 'Raptor';
     case 'Night':
-      return null;
+      return 'Fairy';
     case 'Vile':
       return 'Jaki';
     case 'Raptor':
-      return 'Wood';
+      return 'Vile';
     case 'Wood':
-      return 'Fairy';
+      return null;
     case 'Wilder':
-      return 'Beast';
+      return 'Raptor';
     case 'Foul':
-      return 'Yoma';
+      return 'Beast';
     case 'Tyrant':
-      return 'Jaki';
+      return 'Drake';
     case 'Drake':
-      return 'Kishin';
+      return 'Raptor';
     case 'Haunt':
-      return 'Femme';
+      return 'Raptor';
     default:
       throw new Error('Invalid race');
   }

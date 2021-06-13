@@ -11,8 +11,8 @@ import { generateReverseFusion } from './generate-reverse-fusion';
  * refs https://dx2wiki.com/index.php/Main_Page
  */
 
-const urlJa = 'https://d2-megaten-l.sega.jp/news/detail/077290.html';
-const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/077292.html';
+const urlJa = 'https://d2-megaten-l.sega.jp/news/detail/087591.html';
+const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/087624.html';
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -31,7 +31,7 @@ const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/077292.html';
 
     const table = Array.from(parent.children)[0]; // get header
     return Array.from(table.getElementsByTagName('tr')) // get table
-      .filter((_, i) => i > 0) // ignore empty
+      .filter((_, i, arr) => i > 0 && i < arr.length - 1) // ignore empty
       .map((tr) => tr.textContent ?? '');
   });
   await generateRaceKey(raceKeys);
@@ -47,7 +47,7 @@ const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/077292.html';
 
     const table = Array.from(parent.children)[0]; // get header
     return Array.from(table.getElementsByTagName('tr')) // get table
-      .filter((_, i) => i > 0) // ignore empty
+      .filter((_, i, arr) => i > 0 && i < arr.length - 1) // ignore empty
       .map((tr) => tr.textContent ?? '');
   });
   await generateRaceLabel(raceLabel);
@@ -67,7 +67,9 @@ const urlEn = 'https://d2-megaten-l.sega.com/en/news/detail/077292.html';
     return Array.from(table.getElementsByTagName('tbody')) // get table
       .filter((_, i) => i === 0) // the one
       .map((tbody) => Array.from(tbody.getElementsByTagName('tr'))) // get tr
-      .map((tr) => Array.from(tr).filter((_, i) => i > 0)) // ignore header
+      .map((tr) =>
+        Array.from(tr).filter((_, i, arr) => i > 0 && i < arr.length - 1),
+      ) // ignore header
       .map((tr) =>
         tr.map((v) => Array.from(v.children).map((td) => td.textContent ?? '')),
       )[0];

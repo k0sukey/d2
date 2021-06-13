@@ -50,6 +50,8 @@ export function getLadyFusionResult(key: RaceKey): RaceKey | null {
       return 'Genma';
     case 'Raptor':
       return 'Kishin';
+    case 'Wood':
+      return 'Yoma';
     case 'Wilder':
       return 'Haunt';
     case 'Foul':

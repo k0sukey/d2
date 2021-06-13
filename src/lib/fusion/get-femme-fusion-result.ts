@@ -49,7 +49,9 @@ export function getFemmeFusionResult(key: RaceKey): RaceKey | null {
     case 'Vile':
       return 'Brute';
     case 'Raptor':
-      return 'Foul';
+      return 'Wood';
+    case 'Wood':
+      return 'Raptor';
     case 'Wilder':
       return 'Fallen';
     case 'Foul':

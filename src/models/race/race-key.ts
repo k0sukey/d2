@@ -23,6 +23,7 @@ export type RaceKey =
   | 'Night'
   | 'Vile'
   | 'Raptor'
+  | 'Wood'
   | 'Wilder'
   | 'Foul'
   | 'Tyrant'

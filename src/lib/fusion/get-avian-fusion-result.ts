@@ -50,6 +50,8 @@ export function getAvianFusionResult(key: RaceKey): RaceKey | null {
       return 'Yoma';
     case 'Raptor':
       return 'Megami';
+    case 'Wood':
+      return 'Raptor';
     case 'Wilder':
       return 'Avatar';
     case 'Foul':

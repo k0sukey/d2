@@ -50,6 +50,8 @@ export function getJakiFusionResult(key: RaceKey): RaceKey | null {
       return 'Haunt';
     case 'Raptor':
       return 'Avian';
+    case 'Wood':
+      return 'Jirae';
     case 'Wilder':
       return 'Drake';
     case 'Foul':

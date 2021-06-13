@@ -50,6 +50,8 @@ export function getVileFusionResult(key: RaceKey): RaceKey | null {
       return null;
     case 'Raptor':
       return 'Drake';
+    case 'Wood':
+      return 'Jaki';
     case 'Wilder':
       return 'Raptor';
     case 'Foul':

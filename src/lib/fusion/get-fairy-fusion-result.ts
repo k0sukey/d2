@@ -49,17 +49,19 @@ export function getFairyFusionResult(key: RaceKey): RaceKey | null {
     case 'Vile':
       return 'Jaki';
     case 'Raptor':
-      return 'Night';
+      return 'Wood';
+    case 'Wood':
+      return 'Brute';
     case 'Wilder':
-      return 'Foul';
+      return 'Wood';
     case 'Foul':
       return 'Haunt';
     case 'Tyrant':
       return 'Night';
     case 'Drake':
-      return 'Night';
+      return 'Wood';
     case 'Haunt':
-      return 'Holy';
+      return 'Wood';
     default:
       throw new Error('Invalid race');
   }

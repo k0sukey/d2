@@ -1,0 +1,34 @@
+[
+  {
+    "no": 286,
+    "race": "Wood",
+    "rarity": 3,
+    "grade": 42,
+    "name": "マンドレイク",
+    "sacrifice": true
+  },
+  {
+    "no": 287,
+    "race": "Wood",
+    "rarity": 4,
+    "grade": 60,
+    "name": "アルラウネ",
+    "sacrifice": true
+  },
+  {
+    "no": 288,
+    "race": "Wood",
+    "rarity": 4,
+    "grade": 67,
+    "name": "エス",
+    "sacrifice": true
+  },
+  {
+    "no": 289,
+    "race": "Wood",
+    "rarity": 5,
+    "grade": 84,
+    "name": "アールキング",
+    "sacrifice": true
+  }
+]

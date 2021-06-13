@@ -33,9 +33,9 @@ export function getWilderFusionResult(key: RaceKey): RaceKey | null {
     case 'Beast':
       return 'Vile';
     case 'Fairy':
-      return 'Foul';
+      return 'Wood';
     case 'Jirae':
-      return 'Brute';
+      return 'Wood';
     case 'Jaki':
       return 'Drake';
     case 'Fallen':
@@ -50,6 +50,8 @@ export function getWilderFusionResult(key: RaceKey): RaceKey | null {
       return 'Raptor';
     case 'Raptor':
       return 'Dragon';
+    case 'Wood':
+      return 'Raptor';
     case 'Wilder':
       return null;
     case 'Foul':
@@ -57,9 +59,9 @@ export function getWilderFusionResult(key: RaceKey): RaceKey | null {
     case 'Tyrant':
       return 'Drake';
     case 'Drake':
-      return 'Avian';
+      return 'Wood';
     case 'Haunt':
-      return 'Night';
+      return 'Wood';
     default:
       throw new Error('Invalid race');
   }

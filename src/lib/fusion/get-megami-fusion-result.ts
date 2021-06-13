@@ -29,7 +29,7 @@ export function getMegamiFusionResult(key: RaceKey): RaceKey | null {
     case 'Yoma':
       return 'Avian';
     case 'Snake':
-      return 'Fairy';
+      return 'Wood';
     case 'Beast':
       return 'Haunt';
     case 'Fairy':
@@ -50,6 +50,8 @@ export function getMegamiFusionResult(key: RaceKey): RaceKey | null {
       return 'Fury';
     case 'Raptor':
       return 'Tyrant';
+    case 'Wood':
+      return 'Haunt';
     case 'Wilder':
       return 'Holy';
     case 'Foul':

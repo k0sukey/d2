@@ -50,8 +50,10 @@ export function getJiraeFusionResult(key: RaceKey): RaceKey | null {
       return 'Jaki';
     case 'Raptor':
       return 'Foul';
+    case 'Wood':
+      return 'Foul';
     case 'Wilder':
-      return 'Brute';
+      return 'Wood';
     case 'Foul':
       return 'Fairy';
     case 'Tyrant':

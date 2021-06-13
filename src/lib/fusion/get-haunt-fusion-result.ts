@@ -29,11 +29,11 @@ export function getHauntFusionResult(key: RaceKey): RaceKey | null {
     case 'Yoma':
       return 'Jirae';
     case 'Snake':
-      return 'Brute';
+      return 'Wood';
     case 'Beast':
       return 'Wilder';
     case 'Fairy':
-      return 'Holy';
+      return 'Wood';
     case 'Jirae':
       return 'Jaki';
     case 'Jaki':
@@ -50,14 +50,16 @@ export function getHauntFusionResult(key: RaceKey): RaceKey | null {
       return 'Raptor';
     case 'Raptor':
       return 'Wilder';
+    case 'Wood':
+      return 'Raptor';
     case 'Wilder':
-      return 'Night';
+      return 'Wood';
     case 'Foul':
       return 'Brute';
     case 'Tyrant':
       return 'Beast';
     case 'Drake':
-      return 'Kishin';
+      return 'Wood';
     case 'Haunt':
       return null;
     default:

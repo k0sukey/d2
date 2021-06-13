@@ -5,7 +5,7 @@ export function getSnakeFusionResult(key: RaceKey): RaceKey | null {
     case 'Herald':
       return 'Beast';
     case 'Megami':
-      return 'Fairy';
+      return 'Wood';
     case 'Avian':
       return 'Kishin';
     case 'Deity':
@@ -50,6 +50,8 @@ export function getSnakeFusionResult(key: RaceKey): RaceKey | null {
       return 'Drake';
     case 'Raptor':
       return 'Fury';
+    case 'Wood':
+      return 'Drake';
     case 'Wilder':
       return 'Avian';
     case 'Foul':
@@ -59,7 +61,7 @@ export function getSnakeFusionResult(key: RaceKey): RaceKey | null {
     case 'Drake':
       return 'Vile';
     case 'Haunt':
-      return 'Brute';
+      return 'Wood';
     default:
       throw new Error('Invalid race');
   }

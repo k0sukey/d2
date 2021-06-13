@@ -33,7 +33,7 @@ export function getDrakeFusionResult(key: RaceKey): RaceKey | null {
     case 'Beast':
       return 'Foul';
     case 'Fairy':
-      return 'Night';
+      return 'Wood';
     case 'Jirae':
       return 'Snake';
     case 'Jaki':
@@ -50,8 +50,10 @@ export function getDrakeFusionResult(key: RaceKey): RaceKey | null {
       return 'Wilder';
     case 'Raptor':
       return 'Holy';
+    case 'Wood':
+      return 'Raptor';
     case 'Wilder':
-      return 'Avian';
+      return 'Wood';
     case 'Foul':
       return 'Dragon';
     case 'Tyrant':
@@ -59,7 +61,7 @@ export function getDrakeFusionResult(key: RaceKey): RaceKey | null {
     case 'Drake':
       return null;
     case 'Haunt':
-      return 'Kishin';
+      return 'Wood';
     default:
       throw new Error('Invalid race');
   }

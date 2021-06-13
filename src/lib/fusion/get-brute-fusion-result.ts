@@ -50,6 +50,8 @@ export function getBruteFusionResult(key: RaceKey): RaceKey | null {
       return 'Jaki';
     case 'Raptor':
       return 'Haunt';
+    case 'Wood':
+      return 'Foul';
     case 'Wilder':
       return 'Fairy';
     case 'Foul':

@@ -50,6 +50,8 @@ export function getTyrantFusionResult(key: RaceKey): RaceKey | null {
       return 'Haunt';
     case 'Raptor':
       return 'Snake';
+    case 'Wood':
+      return 'Drake';
     case 'Wilder':
       return 'Drake';
     case 'Foul':

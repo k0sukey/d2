@@ -50,6 +50,8 @@ export function getBeastFusionResult(key: RaceKey): RaceKey | null {
       return 'Deity';
     case 'Raptor':
       return 'Avian';
+    case 'Wood':
+      return 'Wilder';
     case 'Wilder':
       return 'Vile';
     case 'Foul':

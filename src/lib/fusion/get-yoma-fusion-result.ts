@@ -49,7 +49,9 @@ export function getYomaFusionResult(key: RaceKey): RaceKey | null {
     case 'Vile':
       return 'Wilder';
     case 'Raptor':
-      return 'Haunt';
+      return 'Wood';
+    case 'Wood':
+      return 'Drake';
     case 'Wilder':
       return 'Avian';
     case 'Foul':

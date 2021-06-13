@@ -50,6 +50,8 @@ export function getFuryFusionResult(key: RaceKey): RaceKey | null {
       return 'Tyrant';
     case 'Raptor':
       return 'Tyrant';
+    case 'Wood':
+      return 'Vile';
     case 'Wilder':
       return 'Haunt';
     case 'Foul':

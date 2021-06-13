@@ -50,6 +50,8 @@ export function getHeraldFusionResult(key: RaceKey): RaceKey | null {
       return 'Haunt';
     case 'Raptor':
       return 'Divine';
+    case 'Wood':
+      return 'Night';
     case 'Wilder':
       return 'Haunt';
     case 'Foul':

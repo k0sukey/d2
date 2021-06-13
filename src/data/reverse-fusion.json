@@ -62,8 +62,7 @@
     ["Beast", "Raptor"],
     ["Jaki", "Raptor"],
     ["Brute", "Night"],
-    ["Raptor", "Foul"],
-    ["Wilder", "Drake"]
+    ["Raptor", "Foul"]
   ],
   "Wilder": [
     ["Herald", "Genma"],
@@ -76,6 +75,7 @@
     ["Lady", "Haunt"],
     ["Yoma", "Vile"],
     ["Beast", "Jaki"],
+    ["Beast", "Wood"],
     ["Beast", "Foul"],
     ["Beast", "Haunt"],
     ["Fallen", "Femme"],
@@ -114,10 +114,10 @@
     ["Genma", "Divine"],
     ["Genma", "Night"],
     ["Fury", "Yoma"],
+    ["Dragon", "Wood"],
     ["Kishin", "Beast"],
     ["Divine", "Fairy"],
     ["Yoma", "Fairy"],
-    ["Fairy", "Haunt"],
     ["Raptor", "Drake"]
   ],
   "Fury": [
@@ -144,14 +144,15 @@
     ["Herald", "Yoma"],
     ["Avian", "Femme"],
     ["Deity", "Jirae"],
+    ["Avatar", "Wood"],
     ["Holy", "Wilder"],
     ["Fury", "Fairy"],
     ["Fury", "Jirae"],
     ["Kishin", "Fairy"],
+    ["Kishin", "Wood"],
     ["Yoma", "Femme"],
     ["Snake", "Beast"],
-    ["Snake", "Haunt"],
-    ["Jirae", "Wilder"],
+    ["Fairy", "Wood"],
     ["Fallen", "Haunt"],
     ["Femme", "Vile"],
     ["Foul", "Haunt"]
@@ -170,6 +171,7 @@
     ["Kishin", "Fallen"],
     ["Fairy", "Jirae"],
     ["Night", "Wilder"],
+    ["Wood", "Foul"],
     ["Wilder", "Foul"],
     ["Tyrant", "Haunt"]
   ],
@@ -197,12 +199,12 @@
     ["Herald", "Wilder"],
     ["Megami", "Beast"],
     ["Megami", "Fairy"],
+    ["Megami", "Wood"],
     ["Megami", "Tyrant"],
     ["Fury", "Wilder"],
     ["Lady", "Wilder"],
     ["Kishin", "Tyrant"],
     ["Yoma", "Jaki"],
-    ["Yoma", "Raptor"],
     ["Fairy", "Foul"],
     ["Jirae", "Jaki"],
     ["Jaki", "Brute"],
@@ -225,6 +227,23 @@
     ["Fairy", "Fallen"],
     ["Fairy", "Night"],
     ["Femme", "Night"]
+  ],
+  "Night": [
+    ["Herald", "Wood"],
+    ["Avian", "Yoma"],
+    ["Avian", "Fairy"],
+    ["Deity", "Fairy"],
+    ["Deity", "Wood"],
+    ["Deity", "Wilder"],
+    ["Holy", "Wood"],
+    ["Genma", "Femme"],
+    ["Dragon", "Fairy"],
+    ["Dragon", "Brute"],
+    ["Dragon", "Femme"],
+    ["Kishin", "Divine"],
+    ["Yoma", "Snake"],
+    ["Fairy", "Brute"],
+    ["Fairy", "Tyrant"]
   ],
   "Snake": [
     ["Herald", "Drake"],
@@ -269,21 +288,20 @@
     ["Holy", "Divine"],
     ["Holy", "Fallen"]
   ],
-  "Fairy": [
+  "Wood": [
     ["Megami", "Snake"],
-    ["Megami", "Femme"],
-    ["Avian", "Tyrant"],
-    ["Genma", "Beast"],
-    ["Kishin", "Foul"],
-    ["Divine", "Yoma"],
-    ["Divine", "Snake"],
-    ["Divine", "Jaki"],
-    ["Snake", "Night"],
-    ["Beast", "Night"],
-    ["Jirae", "Brute"],
-    ["Jirae", "Night"],
-    ["Jirae", "Foul"],
-    ["Brute", "Wilder"]
+    ["Yoma", "Raptor"],
+    ["Snake", "Haunt"],
+    ["Fairy", "Raptor"],
+    ["Fairy", "Wilder"],
+    ["Fairy", "Drake"],
+    ["Fairy", "Haunt"],
+    ["Jirae", "Wilder"],
+    ["Femme", "Raptor"],
+    ["Night", "Raptor"],
+    ["Wilder", "Drake"],
+    ["Wilder", "Haunt"],
+    ["Drake", "Haunt"]
   ],
   "Femme": [
     ["Megami", "Jaki"],
@@ -300,14 +318,31 @@
     ["Yoma", "Brute"],
     ["Night", "Haunt"]
   ],
+  "Fairy": [
+    ["Megami", "Femme"],
+    ["Avian", "Tyrant"],
+    ["Genma", "Beast"],
+    ["Kishin", "Foul"],
+    ["Divine", "Yoma"],
+    ["Divine", "Snake"],
+    ["Divine", "Jaki"],
+    ["Snake", "Night"],
+    ["Beast", "Night"],
+    ["Jirae", "Brute"],
+    ["Jirae", "Night"],
+    ["Jirae", "Foul"],
+    ["Brute", "Wilder"],
+    ["Night", "Wood"]
+  ],
   "Vile": [
     ["Megami", "Drake"],
     ["Avatar", "Jaki"],
     ["Fury", "Divine"],
+    ["Fury", "Wood"],
     ["Snake", "Drake"],
     ["Beast", "Wilder"],
     ["Beast", "Tyrant"],
-    ["Night", "Raptor"]
+    ["Raptor", "Wood"]
   ],
   "Kishin": [
     ["Avian", "Fury"],
@@ -324,8 +359,7 @@
     ["Lady", "Night"],
     ["Lady", "Raptor"],
     ["Jaki", "Foul"],
-    ["Night", "Drake"],
-    ["Drake", "Haunt"]
+    ["Night", "Drake"]
   ],
   "Avatar": [
     ["Avian", "Dragon"],
@@ -341,23 +375,6 @@
     ["Fury", "Beast"],
     ["Yoma", "Night"]
   ],
-  "Night": [
-    ["Avian", "Yoma"],
-    ["Avian", "Fairy"],
-    ["Deity", "Fairy"],
-    ["Deity", "Wilder"],
-    ["Genma", "Femme"],
-    ["Dragon", "Fairy"],
-    ["Dragon", "Brute"],
-    ["Dragon", "Femme"],
-    ["Kishin", "Divine"],
-    ["Yoma", "Snake"],
-    ["Fairy", "Brute"],
-    ["Fairy", "Raptor"],
-    ["Fairy", "Tyrant"],
-    ["Fairy", "Drake"],
-    ["Wilder", "Haunt"]
-  ],
   "Yoma": [
     ["Avian", "Jirae"],
     ["Avian", "Vile"],
@@ -365,9 +382,11 @@
     ["Holy", "Vile"],
     ["Genma", "Kishin"],
     ["Genma", "Fallen"],
+    ["Genma", "Wood"],
     ["Genma", "Wilder"],
     ["Genma", "Tyrant"],
     ["Fury", "Foul"],
+    ["Lady", "Wood"],
     ["Beast", "Jirae"],
     ["Jaki", "Night"],
     ["Night", "Foul"]
@@ -375,6 +394,7 @@
   "Raptor": [
     ["Avian", "Fallen"],
     ["Avian", "Night"],
+    ["Avian", "Wood"],
     ["Avian", "Foul"],
     ["Avatar", "Foul"],
     ["Divine", "Vile"],
@@ -384,8 +404,12 @@
     ["Fallen", "Vile"],
     ["Fallen", "Wilder"],
     ["Fallen", "Drake"],
+    ["Femme", "Wood"],
     ["Vile", "Wilder"],
-    ["Vile", "Haunt"]
+    ["Vile", "Haunt"],
+    ["Wood", "Wilder"],
+    ["Wood", "Drake"],
+    ["Wood", "Haunt"]
   ],
   "Jirae": [
     ["Avian", "Drake"],
@@ -397,8 +421,10 @@
     ["Fury", "Night"],
     ["Kishin", "Femme"],
     ["Divine", "Brute"],
+    ["Divine", "Wood"],
     ["Yoma", "Fallen"],
-    ["Yoma", "Haunt"]
+    ["Yoma", "Haunt"],
+    ["Jaki", "Wood"]
   ],
   "Dragon": [
     ["Avatar", "Fury"],
@@ -432,14 +458,17 @@
     ["Brute", "Vile"],
     ["Brute", "Tyrant"],
     ["Night", "Vile"],
-    ["Night", "Tyrant"]
+    ["Night", "Tyrant"],
+    ["Vile", "Wood"]
   ],
   "Drake": [
     ["Dragon", "Divine"],
     ["Dragon", "Foul"],
+    ["Yoma", "Wood"],
     ["Snake", "Jaki"],
     ["Snake", "Femme"],
     ["Snake", "Vile"],
+    ["Snake", "Wood"],
     ["Snake", "Tyrant"],
     ["Jaki", "Fallen"],
     ["Jaki", "Wilder"],
@@ -447,6 +476,7 @@
     ["Fallen", "Raptor"],
     ["Fallen", "Tyrant"],
     ["Vile", "Raptor"],
+    ["Wood", "Tyrant"],
     ["Wilder", "Tyrant"]
   ],
   "Foul": [
@@ -455,11 +485,12 @@
     ["Divine", "Raptor"],
     ["Beast", "Femme"],
     ["Beast", "Drake"],
-    ["Fairy", "Wilder"],
     ["Jirae", "Femme"],
     ["Jirae", "Raptor"],
+    ["Jirae", "Wood"],
+    ["Fallen", "Wood"],
+    ["Brute", "Wood"],
     ["Brute", "Haunt"],
-    ["Femme", "Raptor"],
     ["Femme", "Drake"],
     ["Femme", "Haunt"]
   ],

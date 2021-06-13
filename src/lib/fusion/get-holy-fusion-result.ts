@@ -50,6 +50,8 @@ export function getHolyFusionResult(key: RaceKey): RaceKey | null {
       return 'Yoma';
     case 'Raptor':
       return 'Wilder';
+    case 'Wood':
+      return 'Night';
     case 'Wilder':
       return 'Brute';
     case 'Foul':

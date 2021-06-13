@@ -50,6 +50,8 @@ export function getDeityFusionResult(key: RaceKey): RaceKey | null {
       return 'Avatar';
     case 'Raptor':
       return 'Tyrant';
+    case 'Wood':
+      return 'Night';
     case 'Wilder':
       return 'Night';
     case 'Foul':

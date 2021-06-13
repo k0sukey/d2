@@ -50,6 +50,8 @@ export function getDragonFusionResult(key: RaceKey): RaceKey | null {
       return 'Snake';
     case 'Raptor':
       return 'Fury';
+    case 'Wood':
+      return 'Holy';
     case 'Wilder':
       return 'Beast';
     case 'Foul':

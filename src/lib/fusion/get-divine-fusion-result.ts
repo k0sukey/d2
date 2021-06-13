@@ -50,6 +50,8 @@ export function getDivineFusionResult(key: RaceKey): RaceKey | null {
       return 'Raptor';
     case 'Raptor':
       return 'Foul';
+    case 'Wood':
+      return 'Jirae';
     case 'Wilder':
       return 'Raptor';
     case 'Foul':

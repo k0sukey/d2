@@ -50,6 +50,8 @@ export function getKishinFusionResult(key: RaceKey): RaceKey | null {
       return 'Genma';
     case 'Raptor':
       return 'Tyrant';
+    case 'Wood':
+      return 'Brute';
     case 'Wilder':
       return 'Dragon';
     case 'Foul':
