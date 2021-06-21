@@ -8,6 +8,8 @@ import deity from './deity.json';
 import divine from './divine.json';
 import dragon from './dragon.json';
 import drake from './drake.json';
+import enigma from './enigma.json';
+import entity from './entity.json';
 import fairy from './fairy.json';
 import fallen from './fallen.json';
 import femme from './femme.json';
@@ -24,17 +26,14 @@ import lady from './lady.json';
 import megami from './megami.json';
 import night from './night.json';
 import raptor from './raptor.json';
+import rumor from './rumor.json';
 import snake from './snake.json';
 import tyrant from './tyrant.json';
+import uma from './uma.json';
 import vile from './vile.json';
 import wilder from './wilder.json';
 import wood from './wood.json';
 import yoma from './yoma.json';
-
-import enigma from './enigma.json';
-import entity from './entity.json';
-import rumor from './rumor.json';
-import uma from './uma.json';
 import zealot from './zealot.json';
 
 const list = avatar.concat(

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 
 import { Devil } from '../models/devil/devil';
 import { getCommons } from '../models/fusion/get-commons';
@@ -18,7 +18,7 @@ type Props = {
   onChange: (devil: Devil) => void;
 };
 
-const Result = ({ devil, activeTab, onChange }: Props) => {
+const Result = ({ devil, activeTab, onChange }: Props): JSX.Element => {
   const sacrifices = useMemo(() => {
     if (devil === null) {
       return [];

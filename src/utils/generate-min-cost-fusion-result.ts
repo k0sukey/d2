@@ -41,9 +41,9 @@ fs.writeFileSync(
   format(
     `${list.map((v) => v.import).join('\n')}
 
-export \{
+export {
   ${list.map((v) => v.export).join(`,\n`)}
-\};`,
+};`,
     { parser: 'typescript', singleQuote: true, trailingComma: 'all' },
   ),
 );

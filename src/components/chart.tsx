@@ -1,7 +1,7 @@
-import React, { useCallback, useState } from 'react';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CheckIcon from '@material-ui/icons/Check';
+import { useCallback, useState } from 'react';
 
 import { Dendrogram } from '../models/fusion/dendrogram';
 
@@ -9,10 +9,12 @@ type Props = {
   dendrogram: Dendrogram;
 };
 
-const getChecked = (target: number, checked: number[]) => {
+const getChecked = (target: number, checked: number[]): JSX.Element => {
   return checked.includes(target) ? (
     <CheckIcon style={{ fontSize: '10px' }} color="secondary" />
-  ) : null;
+  ) : (
+    <></>
+  );
 };
 
 const getChartFragment = ({
@@ -23,7 +25,7 @@ const getChartFragment = ({
   fragment: Dendrogram | null;
   checked: number[];
   onToggle(v: number): void;
-}) => {
+}): JSX.Element | void => {
   if (fragment === null) {
     return;
   }
@@ -48,7 +50,7 @@ const getChartFragment = ({
         </dt>
         {a && (
           <dd
-            key={`dendrogram-children-${fragment.a!.nodeNo}`}
+            key={`dendrogram-children-a-${fragment.a?.nodeNo ?? ''}`}
             className="children"
           >
             {a}
@@ -56,7 +58,7 @@ const getChartFragment = ({
         )}
         {b && (
           <dd
-            key={`dendrogram-children-${fragment.b!.nodeNo}`}
+            key={`dendrogram-children-b-${fragment.b?.nodeNo ?? ''}`}
             className="children"
           >
             {b}
@@ -67,7 +69,7 @@ const getChartFragment = ({
   );
 };
 
-const Chart = ({ dendrogram }: Props) => {
+const Chart = ({ dendrogram }: Props): JSX.Element => {
   const [checked, setChecked] = useState<number[]>([]);
   const handleToggle = useCallback(
     (no: number) => {

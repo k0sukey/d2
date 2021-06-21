@@ -23,7 +23,8 @@ export function get${key}FusionResult(key: RaceKey): RaceKey | null {
   code.push(`    default:
       throw new Error('Invalid race');
   }
-}`);
+}
+`);
 
   const name = `get-${key.toLowerCase()}-fusion-result`;
   await fs.writeFileSync(

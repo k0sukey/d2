@@ -1,9 +1,11 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { Devil } from '../models/devil/devil';
 
-export function useRarityFilter(sacrifices: [Devil, Devil][]) {
-  const all = [1, 2, 3, 4, 5];
+export function useRarityFilter(
+  sacrifices: [Devil, Devil][],
+): readonly [number[], number[], (rarity: number) => void] {
+  const all = useMemo(() => [1, 2, 3, 4, 5], []);
   const [rarities, setRarities] = useState<number[]>(all);
 
   const toggle = useCallback(
@@ -14,12 +16,12 @@ export function useRarityFilter(sacrifices: [Devil, Devil][]) {
       }
       setRarities(rarities.concat(rarity));
     },
-    [all, rarities],
+    [rarities],
   );
 
   useEffect(() => {
     setRarities(all);
-  }, [sacrifices]);
+  }, [sacrifices, all]);
 
   return [all, rarities, toggle] as const;
 }

@@ -3,7 +3,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Devil } from '../models/devil/devil';
 import { RaceKey } from '../models/race/race-key';
 
-export function useRaceFilter(sacrifices: [Devil, Devil][]) {
+export function useRaceFilter(
+  sacrifices: [Devil, Devil][],
+): readonly [RaceKey[], RaceKey[], (raceKey: RaceKey) => void] {
   const all = useMemo<RaceKey[]>(() => {
     return sacrifices.reduce<RaceKey[]>((acc, [a, b]) => {
       return acc.concat(
@@ -23,7 +25,7 @@ export function useRaceFilter(sacrifices: [Devil, Devil][]) {
       }
       setRaces(races.concat(raceKey));
     },
-    [all, races],
+    [races],
   );
 
   useEffect(() => {

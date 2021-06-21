@@ -9,7 +9,7 @@ import { RaceKey } from '../race/race-key';
  * Math.floor((a.grade + b.grade) / 2 + 1)
  */
 export function getSacrifices(result: Devil): [Devil, Devil][] {
-  if (!reverseFusion.hasOwnProperty(result.race)) {
+  if (!(result.race in reverseFusion)) {
     throw new Error('Invalid result');
   }
 

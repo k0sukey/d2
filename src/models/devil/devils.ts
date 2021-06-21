@@ -1,6 +1,6 @@
-import { Devil } from './devil';
 import { RaceKey } from '../race/race-key';
 import { raceMap } from '../race/race-map';
+import { Devil } from './devil';
 
 export class Devils {
   raceOrder: RaceKey[] = [...raceMap].map((v) => v[0]);

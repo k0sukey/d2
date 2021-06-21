@@ -1,4 +1,3 @@
-import React from 'react';
 import Chip from '@material-ui/core/Chip';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
@@ -7,18 +6,19 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import StarIcon from '@material-ui/icons/Star';
 import Rating from '@material-ui/lab/Rating';
+import React from 'react';
 
-import { Devil } from '../models/devil/devil';
-import { raceMap } from '../models/race/race-map';
 import { useRaceFilter } from '../lib/use-race-filter';
 import { useRarityFilter } from '../lib/use-rarity-filter';
+import { Devil } from '../models/devil/devil';
+import { raceMap } from '../models/race/race-map';
 
 type Props = {
   sacrifices: [Devil, Devil][];
   onChange: (devil: Devil) => void;
 };
 
-const Patterns = ({ sacrifices, onChange }: Props) => {
+const Patterns = ({ sacrifices, onChange }: Props): JSX.Element => {
   const [allRarities, rarities, toggleRarities] = useRarityFilter(sacrifices);
   const [allRaces, races, toggleRaces] = useRaceFilter(sacrifices);
 

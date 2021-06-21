@@ -1,14 +1,14 @@
-import { useRouter } from 'next/router';
-import React, { useEffect, useMemo, useState } from 'react';
 import Tab from '@material-ui/core/Tab';
 import MaterialUiTabs from '@material-ui/core/Tabs';
+import { useRouter } from 'next/router';
+import { useEffect, useMemo, useState } from 'react';
 
 type Props = {
   disabled: boolean;
   onChange: (index: number) => void;
 };
 
-const Tabs = ({ disabled, onChange }: Props) => {
+const Tabs = ({ disabled, onChange }: Props): JSX.Element => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<number>(0);
 
@@ -18,7 +18,7 @@ const Tabs = ({ disabled, onChange }: Props) => {
 
   useEffect(() => {
     onChange(activeTab);
-  }, [activeTab]);
+  }, [onChange, activeTab]);
 
   useEffect(() => {
     const handleHashchange = () => {
@@ -29,7 +29,7 @@ const Tabs = ({ disabled, onChange }: Props) => {
     return () => {
       router.events.off('hashChangeStart', handleHashchange);
     };
-  }, []);
+  }, [router.events]);
 
   return (
     <>

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { format } from 'prettier';
 
-export function generateReverseFusion(keys: string[], list: string[][]) {
+export function generateReverseFusion(keys: string[], list: string[][]): void {
   const results: { [key: string]: [string, string][] } = {};
   keys.forEach((vertical, i1) => {
     list[i1].forEach((result, i2) => {

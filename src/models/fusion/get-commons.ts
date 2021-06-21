@@ -14,7 +14,7 @@ export function getCommons(v: Dendrogram): { [no: number]: number } {
   const list = recursive([], v);
   list.sort();
   list.forEach((no) => {
-    if (commons.hasOwnProperty(no)) {
+    if (no in commons) {
       commons[no] = commons[no] + 1;
     } else {
       commons[no] = 1;

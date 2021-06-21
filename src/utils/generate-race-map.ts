@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
-export async function generateRaceMap(keys: string[], labels: string[]) {
+export async function generateRaceMap(
+  keys: string[],
+  labels: string[],
+): Promise<void> {
   const code: string[] = [];
   code.push(`import { RaceKey } from './race-key';
 import { RaceLabel } from './race-label';
@@ -17,6 +20,7 @@ export const raceMap = new Map<RaceKey, RaceLabel>([`);
 
   await fs.writeFileSync(
     path.join('src', 'models', 'race', 'race-map.ts'),
-    code.join('\n'),
+    `${code.join('\n')}
+`,
   );
 }

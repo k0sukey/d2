@@ -33,5 +33,4 @@ export type RaceKey =
   | 'Entity'
   | 'Rumor'
   | 'UMA'
-  | 'Zealot'
-;
+  | 'Zealot';

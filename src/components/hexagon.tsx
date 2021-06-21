@@ -1,5 +1,5 @@
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import React from 'react';
 
 type Props = {
   width: string;
@@ -55,7 +55,7 @@ const Hexagon = ({
   disabled = false,
   style = {},
   onClick,
-}: Props) => {
+}: Props): JSX.Element => {
   const classes = useStyles();
 
   return (

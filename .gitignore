@@ -7,3 +7,5 @@ node_modules
 **/public/workbox-*.js.map
 **/public/sw.js
 **/public/sw.js.map
+
+public/images/devil/

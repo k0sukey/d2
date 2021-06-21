@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-export async function generateRaceLabel(list: string[]) {
+export async function generateRaceLabel(list: string[]): Promise<void> {
   const code: string[] = [];
   code.push('export type RaceLabel =');
   list.forEach((v) => code.push(`  | '${v}'`));
@@ -14,6 +14,7 @@ export async function generateRaceLabel(list: string[]) {
 
   await fs.writeFileSync(
     path.join('src', 'models', 'race', 'race-label.ts'),
-    code.join('\n'),
+    `${code.join('\n')}
+`,
   );
 }

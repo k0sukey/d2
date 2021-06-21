@@ -1,7 +1,7 @@
 import { Devil } from '../devil/devil';
 import { Dendrogram } from './dendrogram';
-import { getSacrifices } from './get-sacrifices';
 import { getMagnetite } from './get-magnetite';
+import { getSacrifices } from './get-sacrifices';
 
 let nodeNo = 0;
 

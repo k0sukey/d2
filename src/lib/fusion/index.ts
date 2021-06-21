@@ -25,4 +25,5 @@ export { getSnakeFusionResult } from './get-snake-fusion-result';
 export { getTyrantFusionResult } from './get-tyrant-fusion-result';
 export { getVileFusionResult } from './get-vile-fusion-result';
 export { getWilderFusionResult } from './get-wilder-fusion-result';
+export { getWoodFusionResult } from './get-wood-fusion-result';
 export { getYomaFusionResult } from './get-yoma-fusion-result';

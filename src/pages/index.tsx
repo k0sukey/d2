@@ -1,25 +1,19 @@
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from 'react';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
 import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { useWindowWidth } from '@react-hook/window-size';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
+import Result from '../components/result';
+import Tabs from '../components/tabs';
 import { toKatakana } from '../lib/to-katakana';
 import { Devil } from '../models/devil/devil';
 import { getAll } from '../models/devil/get-all';
 import { raceMap } from '../models/race/race-map';
-import Result from '../components/result';
-import Tabs from '../components/tabs';
 
-const IndexPage = () => {
+const IndexPage = (): JSX.Element => {
   const router = useRouter();
   const devils = getAll();
   const [focused, setFocused] = useState<Devil | null>(null);
@@ -27,6 +21,7 @@ const IndexPage = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
   const windowWidth = useWindowWidth();
   const resultEl = useRef<HTMLDivElement>(null);
+  const isMounted = useRef<boolean>(false);
 
   const tabsRight = useMemo(() => {
     if (resultEl.current === null) {
@@ -39,9 +34,15 @@ const IndexPage = () => {
   const handleDevil = useCallback(async (devil: Devil | null) => {
     await router.push(`/#${devil !== null ? devil.no : ''}`);
     setFocused(devil);
-  }, []);
+  }, [router]);
 
   useEffect(() => {
+    if (isMounted.current) {
+      return ;
+    }
+
+    isMounted.current = true;
+
     if (window.location.hash === '') {
       return;
     }
@@ -58,7 +59,7 @@ const IndexPage = () => {
 
     setFocused(devil);
     setInputValue(devil.name);
-  }, []);
+  }, [devils]);
 
   return (
     <>

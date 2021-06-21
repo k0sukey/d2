@@ -1,9 +1,9 @@
 import puppeteer from 'puppeteer';
 
+import { generateFusionResult } from './generate-fusion-result';
 import { generateRaceKey } from './generate-race-key';
 import { generateRaceLabel } from './generate-race-label';
 import { generateRaceMap } from './generate-race-map';
-import { generateFusionResult } from './generate-fusion-result';
 import { generateReverseFusion } from './generate-reverse-fusion';
 
 /**
